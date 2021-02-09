@@ -1,0 +1,246 @@
+﻿body.shenqingtuikuan {
+    background-color: #f9f9f9;
+    position: relative;
+    /*main*/
+    .main {
+        background-color: #ffffff;
+        margin-bottom: 200px;
+        margin-top: 10px;
+
+        .container {
+            color: #101010;
+            -webkit-text-fill-color: #101010;
+            font-size: 14px;
+            background-color: #f9f9f9;
+
+            &[data-status="apply"] .applying {
+                display: none;
+            }
+
+            &[data-status="applying"] .apply,
+            &[data-status="applying"] .tip {
+                display: none;
+            }
+
+            .titles {
+                background-color: #ffffff;
+
+                &.apply {
+                    padding-left: 50px;
+                    padding-top: 42px;
+                    padding-bottom: 40px;
+                    font-size: 20px;
+                }
+
+                &.applying {
+                    padding-top: 35px;
+                    padding-bottom: 35px;
+                    padding-left: 40px;
+
+                    .title {
+                        font-size: 20px;
+                        color: #cd000c;
+                        -webkit-text-fill-color: #cd000c;
+                    }
+
+                    .subtitle {
+                        color: #aeaeae;
+                        -webkit-text-fill-color: #aeaeae;
+                        padding-top: 10px;
+                    }
+
+                    .date {
+                        padding-top: 12px;
+                    }
+                }
+            }
+
+            .tthead {
+
+                .tth {
+                    line-height: 50px;
+
+                    &.tth1 {
+                        text-align: left;
+                        width: 290px;
+                    }
+
+                    &.tth2 {
+                        padding-left: 40px;
+                        width: 320px;
+                    }
+
+                    &.tth3 {
+                        width: 180px;
+                    }
+
+                    &.tth4 {
+                        width: 150px;
+                    }
+
+                    &.tth5 {
+                        width: 200px;
+                    }
+                }
+            }
+
+            .ttbody {
+                background-color: #ffffff;
+
+                .ttr {
+                    .ttd {
+                        height: 155px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+
+                        &.ttd1 {
+                            width: 290px;
+
+                            img {
+                                height: 100px;
+                                width: auto;
+                            }
+                        }
+
+                        &.ttd2 {
+                            padding-left: 40px;
+                            width: 320px;
+
+                            .text {
+                            }
+                        }
+
+                        &.ttd3 {
+                            width: 180px;
+                        }
+
+                        &.ttd4 {
+                            width: 150px;
+                        }
+
+                        &.ttd5 {
+                            width: 200px;
+                        }
+                    }
+                }
+            }
+
+            .reason {
+                padding-left: 45px;
+                margin-top: 20px;
+                line-height: 70px;
+                padding-bottom: 60px;
+                background-color: #ffffff;
+
+                .label {
+                    font-size: 16px;
+                }
+
+                input {
+                    width: 90%;
+                    height: 55px;
+                    border: none;
+                    font-size: 16px;
+                }
+            }
+
+            .section-3 {
+                margin-top: 20px;
+                background-color: #ffffff;
+
+                .line-1 {
+                    padding-left: 45px;
+                    line-height: 55px;
+                    border: 1px solid #eeeeee;
+
+                    .label {
+                        font-size: 16px;
+                    }
+
+                    input {
+                        width: 90%;
+                        height: 35px;
+                        border: none;
+                        font-size: 16px;
+                    }
+                }
+
+                .line-2 {
+                    padding: 40px 25px 40px 45px;
+                    border-bottom: 1px solid #eeeeee;
+
+                    .label {
+                        font-size: 16px;
+                        padding-bottom: 10px;
+
+                        .plus {
+                            font-size: 16px;
+                            color: #818181;
+                            -webkit-text-fill-color: #818181;
+                            padding-bottom: 20px;
+                            padding-left: 10px;
+                        }
+                    }
+
+                    .tip {
+                        color: #c9c9c9;
+                        -webkit-text-fill-color: #c9c9c9;
+                        padding-bottom: 40px;
+                        display: block;
+                    }
+
+                    .images {
+                        width: 800px;
+
+                        & > img {
+                            height: 90px;
+                            width: 100px;
+                            margin-right: 30px;
+                            margin-bottom: 20px;
+                        }
+
+                        .btn-upload {
+                            border: 1px solid #bbbbbe;
+                            width: 100px;
+                            height: 90px;
+                            margin-bottom: 20px;
+                            position: relative;
+
+                            .text {
+                                padding-top: 5px;
+                            }
+
+                            input {
+                                width: 100px;
+                                height: 90px;
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                opacity: 0;
+                                z-index: 10;
+                                cursor: pointer;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bottom-btns {
+                background-color: #ffffff;
+                padding-top: 70px;
+                padding-bottom: 80px;
+
+                .btn-red {
+                    width: 200px;
+                    display: block;
+                    height: 70px;
+                    line-height: 70px;
+                    text-align: center;
+                    margin: 0 auto;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,654 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title></title>
+    <link rel="stylesheet" type="text/css " href="css/css.css" />
+</head>
+<body class="shouhoufuwu">
+    <!--topbar-->
+    <div class="topbar">
+        <div class="container flex space-between middle">
+            <div class="left flex space-between middle">
+                <div class="hello">您好！欢迎来到福励惠商城！</div>
+                <div class="text">
+                    <span class="name">唐伯虎大大</span>
+                    <a href="javascript:;" class="logout">退出登录</a>
+                </div>
+            </div>
+            <div class="right flex space-between middle">
+                <a href="index.html" class="index-page">福励惠首页</a>
+                <a href="collect.html" class="favor-page">我的收藏</a>
+                <span class="tel">全国服务热线：400-0917-686</span>
+            </div>
+        </div>
+    </div>
+    <!--header-index-->
+    <div class="header-index">
+        <div class="container flex space-between middle">
+            <a href="index.html" class="flex start middle left">
+                <img src="image/logo.png" class="logo" />
+            </a>
+            <div class="flex end middle right">
+                <div id="search" class="search-group flex space-between middle dropdown-menu-search">
+                    <input placeholder="请输入关键词进行搜索" />
+                    <img src="image/search.png" class="search" />
+                    <div class="dropdown-menu">
+                        <div class="dropdown-list">
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                        </div>
+                        <div class="flex end middle dropdown-bottom">
+                            <a href="javascript:;" class="dropdown-delete-all">全部删除</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="shopping-cart.html"
+                   class="flex space-between middle cart-group">
+                    <img src="image/shopping-cart.png" class="cart" />
+                    <span class="text">购物车12件商品</span>
+                </a>
+                <a href="message.html" class="flex column center msg-group">
+                    <div class="badge">23</div>
+                    <img src="image/msg.png" class="msg" />
+                    <div class="text">消息</div>
+                </a>
+                <a href="history.html" class="flex column center clock-group">
+                    <img src="image/clock.png" class="clock" />
+                    <div class="text">足迹</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--menus-->
+    <div class="menus">
+        <div class="container flex start middle">
+            <div class="main-menu">
+                <div class="main-menu-title">全部商品分类</div>
+                <div class="main-dropdown-menu">
+                    <div class="main-dropdown-item flex start middle" data-id="1">
+                        <img src="image/tab-1.png" class="tab-img" /> 品牌蛋糕 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="2">
+                        <img src="image/tab-2.png" class="tab-img" /> 知名品牌 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="3">
+                        <img src="image/tab-3.png" class="tab-img" /> 指定活动 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="4">
+                        <img src="image/tab-4.png" class="tab-img" /> 生鲜助农 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="5">
+                        <img src="image/tab-5.png" class="tab-img" /> 彩妆工具 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="6">
+                        <img src="image/tab-6.png" class="tab-img" /> 皮肤护理 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="7">
+                        <img src="image/tab-7.png" class="tab-img" /> 个人护理 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="8">
+                        <img src="image/tab-8.png" class="tab-img" /> 生活用品 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="9">
+                        <img src="image/tab-9.png" class="tab-img" /> 家居家纺 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="10">
+                        <img src="image/tab-10.png" class="tab-img" /> 厨房用品 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="11">
+                        <img src="image/tab-11.png" class="tab-img" /> 箱包装饰 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="12">
+                        <img src="image/tab-12.png" class="tab-img" /> 数码3C <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="13">
+                        <img src="image/tab-13.png" class="tab-img" /> 家用电器 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="14">
+                        <img src="image/tab-14.png" class="tab-img" /> 粮油副食 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="15">
+                        <img src="image/tab-15.png" class="tab-img" /> 特价零食 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="16">
+                        <img src="image/tab-16.png" class="tab-img" /> 户外休闲 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="17">
+                        <img src="image/tab-17.png" class="tab-img" /> 保健养生 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle last-one" data-id="18">
+                        <img src="image/tab-18.png" class="tab-img" /> 汽配装饰 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                </div>
+                <div class="main-dropdown-menu-sub flex column start">
+                </div>
+            </div>
+            <a href="index.html" class="link first-link">商城首页</a>
+            <a href="miaosha.html" class="link">限时秒杀</a>
+            <a href="shangxin.html" class="link">今日上新</a>
+            <a href="baokuan.html" class="link">爆款推荐</a>
+            <a href="javascript:;" class="link">电影票</a>
+            <a href="gerenzhongxin.html" class="link active">我的账户</a>
+            <div class="dropdown-about">
+                <a href="javascript:;" class="link">
+                    关于我们
+                </a>
+                <div class="dropdown-menu">
+                    <a href="about-us-1.html" class="dropdown-item">
+                        公司简介
+                    </a>
+                    <a href="about-us-2.html" class="dropdown-item">
+                        业务范围
+                    </a>
+                    <a href="about-us-3.html" class="dropdown-item">
+                        联系我们
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container  flex space-between top">
+            <div class="wodezhanghu-links">
+                <a href="gerenzhongxin.html" class="link">个人中心</a>
+                <a href="wodejifen.html" class="link">我的积分</a>
+                <a href="dingdanxiangqing.html" class="link">订单详情</a>
+                <a href="shouhuodizhi.html" class="link">收货地址</a>
+                <a href="xiugaimima.html" class="link">修改支付密码</a>
+                <a href="xinshourumen.html" class="link">新手入门</a>
+                <a href="peisongshuoming.html" class="link">配送说明</a>
+                <a href="shouhoufuwu.html" class="link active">售后服务</a>
+                <a href="chanpinguanjia.html" class="link">产品管家</a>
+                <a href="yonghuxieyi.html" class="link">用户协议</a>
+            </div>
+            <!--section-list-->
+            <div class="section-list">
+                <!--titles-->
+                <div class="titles flex start middle">
+                    您当前的位置：<a href="index.html">网站首页</a> >> 我的账户
+                </div>
+                <!--section-main-->
+                <div class="section-main tab-template">
+                    <div class="tabs flex start middle">
+                        <div class="tab active" data-tab="1">退换货政策</div>
+                        <div class="tab" data-tab="2">申请退换货</div>
+                        <div class="tab" data-tab="3">常见问题</div>
+                    </div>
+                    <div class="tab-container" data-tab="1">
+                        <p>福励惠售后服务细则</p>
+                        <p>退换货流程</p>
+                        <p>1.换货：</p>
+                        <p>联系客服→发送商品订单→与客服协商一致后，客服给出换货地址→填写换货原因→申请成功→换货地址收到货后3天内发货。</p>
+                        <p>*退换货邮寄费由买家承担。</p>
+                        <p>2.退货：</p>
+                        <p>联系客服→发送商品订单→与客服协商一致后，客服给出退货地址→填写退货原因→申请成功→退货地址收到货后3天内退积分。</p>
+                        <p>*退换货邮寄费由买家承担。</p>
+                        <p>商品退/换货服务：</p>
+                        <p>一．退换货时限</p>
+                        <p>自实际收到商品之日起7日内可以退换货。</p>
+                        <p>二．退换货原因</p>
+                        <p>1、7日内在商品（含附件）完好前提下可享受7天无理由退货；注意事项中约定不适合退货的商品除外；</p>
+                        <p>2、商品质量问题；</p>
+                        <p>3、注意事项</p>
+                        <p>电器类</p>
+                        <p>需要保持商品（含附件）完好，商品表面无划痕、无磨损、无磕碰、无拆卸等痕迹，商品所有附属配件资料（如产品标识、包装、三包卡、说明书、配件等）齐全；</p>
+                        <p>报纸、期刊类</p>
+                        <p>商品不支持7天内无理由退货</p>
+                        <p>运动户外类</p>
+                        <p>商品表面无划痕、无磕碰、无拆卸、无磨损等痕迹；人为原因造成的商品损坏（如自行修改尺寸、洗涤、皮具打油、刺绣、长时间穿着等），不支持退换货。</p>
+                        <p>贴身商品</p>
+                        <p>A.内衣裤、泳衣、短袜/打底袜/丝袜/美腿袜、塑身裤、塑身连体衣、乳贴、插片/胸垫等贴身商品不支持七天无理由退换货服务, 商品存在质量问题的除外。</p>
+                        <p>B.因客户个人原因造成的商品损坏（如自行修改尺寸，洗涤，皮具打油，刺绣，长时间穿着、体味及香水污染），商家可不接受客户的退换货申请；</p>
+                        <p>C.客户因款式、颜色、尺码及个人喜好等原因申请退换货的，不属于因质量问题产生的退换货；</p>
+                        <p>汽车用品类</p>
+                        <p>汽车用品类</p>
+                        <p>A . 对于商品质量问题，客户需向卖家提供证据，若卖家收到证据后，确认商品本身确实存在质量问题，应接受退货或者换货申请。客户应妥善包装后退回商品，返回方式及地址以售后服务单审核为准，产生的退换货运费由卖家承担。因拍摄设备、光线、显示器等原因产生的色差问题，以及因商品测量标准不一致导致的尺寸问题在相关标准规定的尺寸误差范围内的，均不属于商品质量问题。</p>
+                        <p>B．专车专用定制类商品属于特殊类型商品，如非质量或发货错误问题暂不支持退换货；</p>
+                        <p>C．汽车改装产品如因安装不当而造成的配件变形、破损，不接受退换货；</p>
+                        <p>D．未经授权的修理、误用、疏忽、滥用、事故、改动、不正确的安装，不接受退换货。</p>
+                        <p>家居、厨具、家纺类商品</p>
+                        <p>A.需要客户保持商品完好；商品表面无划痕、无磨（破）损、无磕碰、无拆卸等痕迹；</p>
+                        <p>B.定制类商品不接受退换货；</p>
+                        <p>C.组合套装类商品需要申请退换货时，客户可联系商家确认是否接受单件商品退换货，无需整套退回；</p>
+                        <p>D.玻璃制品、陶瓷制品等易损制品如出现局部损坏或运输途中损坏的情况，客户可联系商家确认是否接受补寄单件商品处理，无需全部退回。</p>
+                        <p>箱包类</p>
+                        <p>需要客户保持商品完好；商品无使用、洗涤过的痕迹，箱体无划痕、箱底/面无磨损等；</p>
+                        <p>食品、保健品类</p>
+                        <p>A.为了保证食用安全，食品饮料、保健品类商品一经售出，如无质量问题，不支持退换货；</p>
+                        <p>B.退货时赠品/发票（如有）需一并返回，如赠品/发票缺失，则主商品可能无法全额退款（质量问题换货无需返回）；</p>
+                        <p>C.对于商品质量问题，消费者需向商家提供证据。消费者应妥善包装后退回商品，返回方式及地址以售后服务单退货地址为准，产生的退换货运费均由商家承担；</p>
+                        <p>D.因消费者使用或保管不当所造成的食品质量问题，无法办理退换货；</p>
+                        <p>E.个人审美、口感、喜好等主观因素不属于质量问题；</p>
+                        <p>珠宝首饰类</p>
+                        <p>A.需要客户保持商品完好；</p>
+                        <p>B.贵金属饰品、金银投资类商品、经改圈、刻字及个性定制的商品，不支持7天无理由退换货；</p>
+                        <p>C.商品表面无划痕、无磕碰、无拆卸等痕迹；佩戴饰品时不慎造成变色、斑点、污染、折断、变形、开裂、松动、掉石、出现擦痕等情况均不支持退换货；</p>
+                        <p>宠物食品/宠物用品</p>
+                        <p>A.为了保证食品安全，宠物主食/零食/营养品等宠物食品类商品一经售出，如无质量问题，概不接受退换货；</p>
+                        <p>B. 对于商品质量问题，客户需向卖家提供证据，若卖家收到证据后，确认商品本身确实存在质量问题，应接受退货或者换货。客户应妥善包装后（将附件、说明书、发票、购物凭证、包装）退回商品，返回方式及地址以售后服务单审核为准，产生的退换货运费均由卖家承担；</p>
+                        <p>C. 因拍摄设备、光线、显示器等原因产生的色差问题，以及因商品测量标准不一致导致的尺寸问题在相关标准规定的尺寸误差范围内的，均不属于商品质量问题；
+                        <p>健身器械类</p>
+                        <p> A.对于商品质量问题，客户需向卖家提供证据，若卖家收到证据后，确认商品本身确实存在质量问题，应接受退货或者换货申请。客户应妥善包装后退回商品，返回方式及地址以售后服务单审核为准，产生的退换货运费均由卖家承担。</p>
+                        <p>B.因拍摄设备、光线、显示器等原因产生的色差问题，以及因商品测量标准不一致导致的尺寸问题在相关标准规定的尺寸误差范围内的，均不属于商品质量问题。</p>
+                        <p>玩具类</p>
+                        <p>A.需要保持商品（含附件）完好，商品表面无划痕、无磨损、无磕碰、无拆卸等痕迹，商品所有附属配件资料（如产品标识、包装、三包卡、说明书、配件等）齐全；</p>
+                        <p>B.因客户个人原因或自行拆卸、不正当安装及非正常情况/环境下使用造成的商品损坏，无法办理退换货；</p>
+                        <p>C.对于商品质量问题，客户需向商家提供证据。客户应妥善包装后退回商品，返回方式及地址以售后服务单审核为准，产生的退换货运费均由商家承担。</p>
+                        <p>*退货时赠品/发票（如有）需一并返回，如赠品/发票缺失，则主商品可能无法全额退款（质量问题换货无需返回）；</p>
+                    </div>
+                    <div class="tab-container" data-tab="2">
+                        <!--thead-->
+                        <div class="thead flex space-between middle">
+                            <div class="th th1"></div>
+                            <div class="th th2 flex center middle">商品信息</div>
+                            <div class="th th3 flex center middle">订单编号</div>
+                            <div class="th th4 flex center middle">签收时间</div>
+                            <div class="th th5 flex center middle">联系客服</div>
+                            <div class="th th6 flex center middle">操作</div>
+                        </div>
+                        <!--empty-->
+                        <div class="empty flex center middle">暂无订单</div>
+                        <!--ttbody-->
+                        <div class="table-content">
+                            <div class="ttbody">
+                                <div class="ttr flex space-between middle">
+                                    <div class="ttd ttd1 flex center middle">
+                                        <a href="detail.html"><img src="image/img/product-2.jpg" /></a>
+                                    </div>
+                                    <div class="ttd ttd2 flex center middle">
+                                        <a href="detail.html" class="text">蒙牛特仑苏纯牛奶250ml/盒 12盒装</a>
+                                    </div>
+                                    <div class="ttd ttd3 flex center middle">202012291540001</div>
+                                    <div class="ttd ttd4 flex column center middle">
+                                        <div class="text">2020-12-30</div>
+                                        <div class="text">11:30:09</div>
+                                    </div>
+                                    <div class="ttd ttd5 flex column center middle">
+                                        400-0917-686
+                                    </div>
+                                    <div class="ttd ttd6 flex column center middle">
+                                        <a href="javascript:;" class="btn-red btn-apply-exchange">申请退换</a>
+                                    </div>
+                                </div>
+                                <div class="ttr flex space-between middle">
+                                    <div class="ttd ttd1 flex center middle">
+                                        <a href="detail.html"><img src="image/img/product-2.jpg" /></a>
+                                    </div>
+                                    <div class="ttd ttd2 flex center middle">
+                                        <a href="detail.html" class="text">蒙牛特仑苏纯牛奶250ml/盒 12盒装</a>
+                                    </div>
+                                    <div class="ttd ttd3 flex center middle">202012291540001</div>
+                                    <div class="ttd ttd4 flex column center middle">
+                                        <div class="text">2020-12-30</div>
+                                        <div class="text">11:30:09</div>
+                                    </div>
+                                    <div class="ttd ttd5 flex column center middle">
+                                        400-0917-686
+                                    </div>
+                                    <div class="ttd ttd6 flex column center middle">
+                                        <a href="shouhoufuwu-processing.html" class="btn-red btn-applying">申请中</a>
+                                    </div>
+                                </div>
+                                <div class="ttr flex space-between middle">
+                                    <div class="ttd ttd1 flex center middle">
+                                        <a href="detail.html"><img src="image/img/product-2.jpg" /></a>
+                                    </div>
+                                    <div class="ttd ttd2 flex center middle">
+                                        <a href="detail.html" class="text">蒙牛特仑苏纯牛奶250ml/盒 12盒装</a>
+                                    </div>
+                                    <div class="ttd ttd3 flex center middle">202012291540001</div>
+                                    <div class="ttd ttd4 flex column center middle">
+                                        <div class="text">2020-12-30</div>
+                                        <div class="text">11:30:09</div>
+                                    </div>
+                                    <div class="ttd ttd5 flex column center middle">
+                                        400-0917-686
+                                    </div>
+                                    <div class="ttd ttd6 flex column center middle">
+                                        <div class="text">申请成功</div>
+                                        <a href="javascript:;" class="btn-red btn-fill-number">填写单号</a>
+                                    </div>
+                                </div>
+                                <div class="ttr flex space-between middle">
+                                    <div class="ttd ttd1 flex center middle">
+                                        <a href="detail.html"><img src="image/img/product-2.jpg" /></a>
+                                    </div>
+                                    <div class="ttd ttd2 flex center middle">
+                                        <a href="detail.html" class="text">蒙牛特仑苏纯牛奶250ml/盒 12盒装</a>
+                                    </div>
+                                    <div class="ttd ttd3 flex center middle">202012291540001</div>
+                                    <div class="ttd ttd4 flex column center middle">
+                                        <div class="text">2020-12-30</div>
+                                        <div class="text">11:30:09</div>
+                                    </div>
+                                    <div class="ttd ttd5 flex column center middle">
+                                        400-0917-686
+                                    </div>
+                                    <div class="ttd ttd6 flex column center middle">
+                                        <div class="text">申请失败</div>
+                                        <a href="javascript:;" class="btn-red btn-check-reason">查看原因</a>
+                                    </div>
+                                </div>
+                                <div class="ttr flex space-between middle">
+                                    <div class="ttd ttd1 flex center middle">
+                                        <a href="detail.html"><img src="image/img/product-2.jpg" /></a>
+                                    </div>
+                                    <div class="ttd ttd2 flex center middle">
+                                        <a href="detail.html" class="text">蒙牛特仑苏纯牛奶250ml/盒 12盒装</a>
+                                    </div>
+                                    <div class="ttd ttd3 flex center middle">202012291540001</div>
+                                    <div class="ttd ttd4 flex column center middle">
+                                        <div class="text">2020-12-30</div>
+                                        <div class="text">11:30:09</div>
+                                    </div>
+                                    <div class="ttd ttd5 flex column center middle">
+                                        400-0917-686
+                                    </div>
+                                    <div class="ttd ttd6 flex column center middle">
+                                        <div class="btn-grey overtime">已超售后时间</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="pagination flex center middle">
+                                <a href="javascript:;" class="btn-last fade flex center middle"><img src="image/arrow-grey.png" /></a>
+                                <a href="javascript:;" class="btn-page flex center middle active">1</a>
+                                <a href="javascript:;" class="btn-page flex center middle">2</a>
+                                <a href="javascript:;" class="btn-page flex center middle">3</a>
+                                <a href="javascript:;" class="btn-page flex center middle">...</a>
+                                <a href="javascript:;" class="btn-page flex center middle">20</a>
+                                <a href="javascript:;" class="btn-page flex center middle">21</a>
+                                <a href="javascript:;" class="btn-page flex center middle">22</a>
+                                <a href="javascript:;" class="btn-page flex center middle">...</a>
+                                <a href="javascript:;" class="btn-page flex center middle">261</a>
+                                <a href="javascript:;" class="btn-page flex center middle">262</a>
+                                <a href="javascript:;" class="btn-page flex center middle">263</a>
+                                <a href="javascript:;" class="btn-next flex center middle"><img src="image/arrow-grey.png" /></a>
+                                <div class="sum">共 263 页</div>
+                                <div class="text-goto">前往</div>
+                                <input type="text" />
+                                <div class="text-page">页</div>
+                                <a href="javascript:;" class="btn-goto">跳转</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-container" data-tab="3">
+                        <!--pannels-->
+                        <div class="pannel" data-expand="true">
+                            <div class="pannel-head flex space-between middle">
+                                <div class="text">Q：忘记设置的支付密码了，怎么办？</div>
+                                <img src="image/arrow-grey.png" class="arrow" />
+                            </div>
+                            <div class="pannel-content">
+                                <div class="text">
+                                    A：请在福励惠登入界面点击“忘记密码”，通过手机验证找回密码。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pannel" data-expand="false">
+                            <div class="pannel-head flex space-between middle">
+                                <div class="text">
+                                    Q：怎样修改支付密码？
+                                </div>
+                                <img src="image/arrow-grey.png" class="arrow" />
+                            </div>
+                            <div class="pannel-content">
+                                <div class="text">
+                                    A：请在福励惠登入界面点击“忘记密码”，通过手机验证找回密码。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pannel" data-expand="false">
+                            <div class="pannel-head flex space-between middle">
+                                <div class="text">Q：一直没有收到短信验证码怎么办？</div>
+                                <img src="image/arrow-grey.png" class="arrow" />
+                            </div>
+                            <div class="pannel-content">
+                                <div class="text">
+                                    A：请在福励惠登入界面点击“忘记密码”，通过手机验证找回密码。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pannel" data-expand="false">
+                            <div class="pannel-head flex space-between middle">
+                                <div class="text">
+                                    Q：卡券使用时显示过期怎么办？
+                                </div>
+                                <img src="image/arrow-grey.png" class="arrow" />
+                            </div>
+                            <div class="pannel-content">
+                                <div class="text">
+                                    A：请在福励惠登入界面点击“忘记密码”，通过手机验证找回密码。
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pannel" data-expand="false">
+                            <div class="pannel-head flex space-between middle">
+                                <div class="text">Q：收到的货物若出现质量问题、破损、少货如何解决？</div>
+                                <img src="image/arrow-grey.png" class="arrow" />
+                            </div>
+                            <div class="pannel-content">
+                                <div class="text">
+                                    A：请在福励惠登入界面点击“忘记密码”，通过手机验证找回密码。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--return-section-->
+                    <div class="return-section choose-tab-template">
+                        <!--thead-->
+                        <div class="thead flex space-between middle">
+                            <div class="th th1 flex center middle">商品信息</div>
+                            <div class="th th2 flex center middle">规格</div>
+                            <div class="th th3 flex center middle">数量</div>
+                            <div class="th th4 flex center middle">单价</div>
+                        </div>
+                        <!--table-content-->
+                        <div class="table-content">
+                            <div class="ttbody">
+                                <div class="ttr flex space-between middle">
+                                    <div class="ttd ttd1 flex center middle">
+                                        <a href="detail.html"><img src="image/img/product-2.jpg" /></a>
+                                        <a href="detail.html" class="text">蒙牛特仑苏纯牛奶250ml/盒 <br/>12盒装</a>
+                                    </div>
+                                    <div class="ttd ttd2 flex center middle">250ml*12</div>
+                                    <div class="ttd ttd3 flex column center middle">1</div>
+                                    <div class="ttd ttd4 flex column center middle">650积分</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--choose-tabs-->
+                        <div class="choose-tabs flex start middle">
+                            <div class="label">服务类型：</div>
+                            <div class="choose-tab active" data-tab="1">我要换货</div>
+                            <div class="choose-tab" data-tab="2">我要退货</div>
+                        </div>
+                        <!--return-reason-->
+                        <div class="return-reason flex start top">
+                            <div class="label">退款原因：</div>
+                            <textarea></textarea>
+                        </div>
+                        <!--return-integral-->
+                        <div class="return-integral flex start middle">
+                            <div class="label">退款总积分：</div>
+                            <input  value="650积分" />
+                        </div>
+                        <!--upload-image-->
+                        <div class="upload-image">
+                            <div class="label">上传图片<span class="sub">（选填）</span></div>
+                            <div class="sub-label">补充描述，有助于售后更好的处理问题</div>
+                        </div>
+                        <!--images-->
+                        <div class="flex start middle wrap images">
+                            <!--<img src="image/img/update.jpg" />-->
+                        </div>
+                        <!--btn-line-->
+                        <div class="flex start middle btn-line">
+                            <a href="javascript:;" class="btn-upload flex column center middle">
+                                <img src="image/camera.png" />
+                                <div class="text">点击上传</div>
+                                <input type="file" />
+                            </a>
+                        </div>
+                        <!--return-address-->
+                        <div class="return-address flex start middle">
+                            <span class="label">收货信息：</span>
+                            <span class="text">唐伯虎大大</span>
+                            <span class="text">15230593659</span>
+                            <span class="text">上海市静安区永和路118弄东方环球企业中心43号1101室</span>
+                            <a href="javascript:;" class="modify">修改</a>
+                        </div>
+                        <!--btn-submit-line-->
+                        <div class="btn-submit-line">
+                            <div class="btn-red btn-submit btn-modal"
+                                 data-modal="modal-apply-success">提交</div>
+                        </div>
+                    </div>
+                </div>
+                <!--deliver-code-form-->
+                <div class="deliver-code-form">
+                    <div class="input-group flex start middle">
+                        <div class="label">填写快递公司：</div>
+                        <input />
+                    </div>
+                    <div class="input-group flex start middle">
+                        <div class="label">填写快递单号：</div>
+                        <input />
+                    </div>
+                    <div class="btn-red btn-submit btn-modal"
+                         data-modal="modal-deliver-code-success">提交</div>
+                </div>
+                <!--apply-failure-reason-->
+                <div class="apply-failure-reason">
+                    <div class="text">申请失败原因：</div>
+                    <div class="sub-text">食品类已经拆封，不支持退货，如有疑问请拨打客服电话400-0917-686 .</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="items">
+            <div class="container flex center middle">
+                <div class="flex column center middle item">
+                    <img src="image/footer-1.png" class="footer-img" />
+                    <div class="title">正品保障</div>
+                    <div class="text">品牌厂商 直接供货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-2.png" class="footer-img" />
+                    <div class="title">发货快</div>
+                    <div class="text">24小时内快速发货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-3.png" class="footer-img" />
+                    <div class="title">用心服务</div>
+                    <div class="text">为您呈现不一样的服务</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-4.png" class="footer-img" />
+                    <div class="title">全场包邮</div>
+                    <div class="text">全国地区免费配送​​</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-5.png" class="footer-img" />
+                    <div class="title">7天退换</div>
+                    <div class="text">7天无理由退换货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-6.png" class="footer-img" />
+                    <div class="title">付款方便</div>
+                    <div class="text">多种付款 供您选择</div>
+                </div>
+            </div>
+        </div>
+        <div class="lists">
+            <div class="container flex center top ">
+                <div class="flex column start middle list">
+                    <div class="title">新手入门</div>
+                    <a href="javascript:;" class="text">如何注册</a>
+                    <a href="javascript:;" class="text">购物流程</a>
+                    <a href="javascript:;" class="text">充值积分</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">配送说明</div>
+                    <a href="javascript:;" class="text">配送范围</a>
+                    <a href="javascript:;" class="text">配送时间</a>
+                    <a href="javascript:;" class="text">商品信息</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">售后服务</div>
+                    <a href="javascript:;" class="text">退换货政策</a>
+                    <a href="javascript:;" class="text">申请退换货</a>
+                    <a href="javascript:;" class="text">常见问题</a>
+
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">产品管家</div>
+                    <a href="javascript:;" class="text">新品上新</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">关于我们</div>
+                    <a href="javascript:;" class="text">公司简介</a>
+                    <a href="javascript:;" class="text">业务范围</a>
+                    <a href="javascript:;" class="text">联系我们</a>
+                </div>
+                <div class="flex column start middle list">
+                    <img src="image/erweima.png" class="erweima" />
+                    <div class="title-erweima">扫描二维码关注我们</div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            地点：上海市静安区永和路118弄东方企业园43号1101室&emsp;&emsp;电话：400-0917-686&emsp;&emsp;邮箱：yujunmaoyi@foxmail.com  <br />
+            Copyright 版权所有 © 上海钰隽贸易有限公司&emsp;&emsp;沪ICP备16037107号-2
+        </div>
+    </div>
+    <img src="image/toTop.jpg" class="to-top" />
+    <!--modals start-->
+    <div class="bk-cover"></div>
+    <div class="modal modal-deliver-code-success">
+        <div class="modal-content flex column center middle">
+            <img src="image/success-2.png" />
+            <div class="text">单号提交成功</div>
+            <div class="flex center middle btns">
+                <a href="javascript:;" class="btn-delete-ok">返回</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-apply-success">
+        <div class="modal-content flex column center middle">
+            <img src="image/add-shopping-cart.png" />
+            <div class="text">申请提交成功</div>
+            <div class="sub-text">退款将在1-3个工作日内退还</div>
+            <div class="flex center middle btns">
+                <a href="javascript:;" class="btn-delete-ok">返回</a>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/head.js"></script>
+    <script type="text/javascript" src="js/menus.js"></script>
+    <script type="text/javascript" src="js/shouhoufuwu.js"></script>
+</body>
+</html>

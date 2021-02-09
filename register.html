@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>注册</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body class="register">
+    <div class="header">
+        <div class="container flex space-between middle">
+            <div class="flex start middle left">
+                <img src="image/logo.png" class="logo" />
+                <div class="welcome">欢迎注册</div>
+            </div>
+            <div class="flex end middle right">
+                <span>已有账户？</span>
+                <a href="login.html" class="text-red">登录</a>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <!--data-active : 1 2 3 第一步 第二步 第三步-->
+            <div class="flex center middle steps" data-active="1">
+                <div class="step active" data-step="1">
+                    <a href="javascript:;"
+                       class="circle flex center middle">
+                        1
+                        <div class="line-left"></div>
+                    </a>
+                    <div class="text">填写信息</div>
+
+                </div>
+                <div class="step" data-step="2">
+                    <a href="javascript:;"
+                       class="circle flex center middle">
+                        2
+                        <div class="line-left"></div>
+                    </a>
+                    <div class="text">设置支付密码</div>
+                </div>
+                <div class="step" data-step="3">
+                    <a href="javascript:;"
+                       class="circle flex center middle">
+                        3
+                        <div class="line-left"></div>
+                        <div class="line-right"></div>
+                    </a>
+                    <div class="text">注册成功</div>
+                </div>
+            </div>
+            <div class="step-content active" data-step="1">
+                <div class="form">
+                    <div class="flex start middle input-group account">
+                        <div class="label flex end middle">账户名称</div>
+                        <input placeholder="请输入帐户名称（一旦palc生成，不可修改）" />
+                    </div>
+                    <div class="flex start middle input-group phone">
+                        <div class="label flex end middle">手机号</div>
+                        <input placeholder="请输入手机号码" />
+                    </div>
+                    <div class="flex start middle input-group phone-yzm">
+                        <div class="label flex end middle">手机验证码</div>
+                        <input placeholder="请输入验证码" />
+                        <a href="javascript:;" class="btn-yzm flex column center">获取验证码</a>
+                    </div>
+                    <div class="flex start middle input-group yzm">
+                        <div class="label flex end middle">验证码</div>
+                        <input placeholder="请输入图片中的字符" />
+                        <div class="btn-yzm flex column center">
+                            <img src="image/img/yzm.png" class="yzm" />
+                            <div class="text">看不清？换一张</div>
+                        </div>
+                    </div>
+                    <div class="flex start middle tips">
+                        <div class="checkbox-group">
+                            <input type="checkbox" />
+                            <label></label>
+                        </div>
+                        <div class="text">
+                            我已阅读并同意
+                            <a href="javascript:;" class="text-red">《用户注册协议》</a>和
+                            <a href="javascript:;" class="text-red">《隐私政策》</a>
+                        </div>
+                    </div>
+                    <a href="javascript:;" class="btn-next">下一步</a>
+                </div>
+            </div>
+            <div class="step-content" data-step="2">
+                <div class="form">
+                    <div class="flex start middle  input-group ps">
+                        <div class="label flex end middle">设置支付密码</div>
+                        <input placeholder="6-20位字符，建议字母、数字、符号两种以上的组合" />
+                    </div>
+                    <div class="flex start middle  input-group ps">
+                        <div class="label flex end middle">确认支付密码</div>
+                        <input placeholder="6-20位字符，建议字母、数字、符号两种以上的组合" />
+                    </div>
+                    <a href="javascript:;" class="btn-next">下一步</a>
+                </div>
+            </div>
+            <div class="step-content" data-step="3">
+                <img src="image/done.png" class="done" />
+                <div class="text-3">恭喜您注册成功！</div>
+                <a href="index.html" class="btn-next">返回首页</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="items">
+            <div class="container flex center middle">
+                <div class="flex column center middle item">
+                    <img src="image/footer-1.png" class="footer-img" />
+                    <div class="title">正品保障</div>
+                    <div class="text">品牌厂商 直接供货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-2.png" class="footer-img" />
+                    <div class="title">发货快</div>
+                    <div class="text">24小时内快速发货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-3.png" class="footer-img" />
+                    <div class="title">用心服务</div>
+                    <div class="text">为您呈现不一样的服务</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-4.png" class="footer-img" />
+                    <div class="title">全场包邮</div>
+                    <div class="text">全国地区免费配送​​</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-5.png" class="footer-img" />
+                    <div class="title">7天退换</div>
+                    <div class="text">7天无理由退换货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-6.png" class="footer-img" />
+                    <div class="title">付款方便</div>
+                    <div class="text">多种付款 供您选择</div>
+                </div>
+            </div>
+        </div>
+        <div class="lists">
+            <div class="container flex center top ">
+                <div class="flex column start middle list">
+                    <div class="title">新手入门</div>
+                    <a href="javascript:;" class="text">如何注册</a>
+                    <a href="javascript:;" class="text">购物流程</a>
+                    <a href="javascript:;" class="text">充值积分</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">配送说明</div>
+                    <a href="javascript:;" class="text">配送范围</a>
+                    <a href="javascript:;" class="text">配送时间</a>
+                    <a href="javascript:;" class="text">商品信息</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">售后服务</div>
+                    <a href="javascript:;" class="text">退换货政策</a>
+                    <a href="javascript:;" class="text">申请退换货</a>
+                    <a href="javascript:;" class="text">常见问题</a>
+
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">产品管家</div>
+                    <a href="javascript:;" class="text">新品上新</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">关于我们</div>
+                    <a href="javascript:;" class="text">公司简介</a>
+                    <a href="javascript:;" class="text">业务范围</a>
+                    <a href="javascript:;" class="text">联系我们</a>
+                </div>
+                <div class="flex column start middle list">
+                    <img src="image/erweima.png" class="erweima" />
+                    <div class="title-erweima">扫描二维码关注我们</div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            地点：上海市静安区永和路118弄东方企业园43号1101室&emsp;&emsp;电话：400-0917-686&emsp;&emsp;邮箱：yujunmaoyi@foxmail.com  <br />
+            Copyright 版权所有 © 上海钰隽贸易有限公司&emsp;&emsp;沪ICP备16037107号-2
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/register.js"></script>
+</body>
+</html>

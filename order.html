@@ -1,0 +1,413 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body class="order">
+    <div class="topbar">
+        <div class="container flex space-between middle">
+            <div class="left flex space-between middle">
+                <div class="hello">您好！欢迎来到福励惠商城！</div>
+                <div class="text">
+                    <span class="name">唐伯虎大大</span>
+                    <a href="javascript:;" class="logout">退出登录</a>
+                </div>
+            </div>
+            <div class="right flex space-between middle">
+                <a href="index.html" class="index-page">福励惠首页</a>
+                <a href="collect.html" class="favor-page">我的收藏</a>
+                <span class="tel">全国服务热线：400-0917-686</span>
+            </div>
+        </div>
+    </div>
+    <div class="header-index">
+        <div class="container flex space-between middle">
+            <a href="index.html" class="flex start middle left">
+                <img src="image/logo.png" class="logo" />
+            </a>
+            <div class="flex end middle right">
+                <div id="search" class="search-group flex space-between middle dropdown-menu-search">
+                    <input placeholder="请输入关键词进行搜索" />
+                    <img src="image/search.png" class="search" />
+                    <div class="dropdown-menu">
+                        <div class="dropdown-list">
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                        </div>
+                        <div class="flex end middle dropdown-bottom">
+                            <a href="javascript:;" class="dropdown-delete-all">全部删除</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="shopping-cart.html"
+                   class="flex space-between middle cart-group">
+                    <img src="image/shopping-cart.png" class="cart" />
+                    <span class="text">购物车12件商品</span>
+                </a>
+                <a href="message.html" class="flex column center msg-group">
+                    <div class="badge">23</div>
+                    <img src="image/msg.png" class="msg" />
+                    <div class="text">消息</div>
+                </a>
+                <a href="history.html" class="flex column center clock-group">
+                    <img src="image/clock.png" class="clock" />
+                    <div class="text">足迹</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--3 种：家政[housekeep],蔬菜[vegetable],蛋糕[cake]-->
+    <div class="main" data-type="housekeep">
+        <div class="container">
+            <!--titles-->
+            <div class="titles flex start middle">
+                填写并核对订单信息
+            </div>
+            <!--titles end-->
+            <!--section-address : data-address="none" 是无地址； data-address="have" 是有地址-->
+            <div class="section-address" data-address="have">
+                <div class="section-address-title flex space-between top">
+                    <div class="title">确认收货信息</div>
+                    <div class="flex end middle add-address"><img src="image/add.png" /> 增加收货地址</div>
+                </div>
+                <a href="javascript:;" class="flex start middle add-address-link">
+                    <img src="image/add-address.png" />
+                    请添加收货地址
+                </a>
+                <div class="items" data-expand="false">
+                    <div class="flex start middle item default">
+                        <div class="name">唐伯虎大大</div>
+                        <div class="tel">12311112222</div>
+                        <div class="address">上海市静安区新兴路111弄东方环球国际中心2楼202室<span class="default-badge">默认</span></div>
+                        <div class="btns flex end middle">
+                            <a href="javascript:;" class="btn btn-set-address flex start middle">
+                                <img src="image/add-address-2.png" />设为默认
+                            </a>
+                            <a href="javascript:;" class="btn btn-change-address flex start middle">
+                                <img src="image/write.png" />修改
+                            </a>
+                            <a href="javascript:;" class="btn btn-delete-address flex start middle">
+                                <img src="image/rubbish-2.png" />删除
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="flex start middle item">
+                        <div class="name">唐伯虎大大</div>
+                        <div class="tel">12311112222</div>
+                        <div class="address">上海市静安区新兴路111弄东方环球国际中心2楼202室<span class="default-badge">默认</span></div>
+                        <div class="btns flex end middle">
+                            <a href="javascript:;" class="btn btn-set-address flex start middle">
+                                <img src="image/add-address-2.png" />设为默认
+                            </a>
+                            <a href="javascript:;" class="btn btn-change-address flex start middle">
+                                <img src="image/write.png" />修改
+                            </a>
+                            <a href="javascript:;" class="btn btn-delete-address flex start middle">
+                                <img src="image/rubbish-2.png" />删除
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex start middle item">
+                        <div class="name">唐伯虎大大</div>
+                        <div class="tel">12311112222</div>
+                        <div class="address">上海市静安区新兴路111弄东方环球国际中心2楼202室<span class="default-badge">默认</span></div>
+                        <div class="btns flex end middle">
+                            <a href="javascript:;" class="btn btn-set-address flex start middle">
+                                <img src="image/add-address-2.png" />设为默认
+                            </a>
+                            <a href="javascript:;" class="btn btn-change-address flex start middle">
+                                <img src="image/write.png" />修改
+                            </a>
+                            <a href="javascript:;" class="btn btn-delete-address flex start middle">
+                                <img src="image/rubbish-2.png" />删除
+                            </a>
+                        </div>
+                    </div>
+                    <div class="flex start middle item">
+                        <div class="name">唐伯虎大大</div>
+                        <div class="tel">12311112222</div>
+                        <div class="address">上海市静安区新兴路111弄东方环球国际中心2楼202室<span class="default-badge">默认</span></div>
+                        <div class="btns flex end middle">
+                            <a href="javascript:;" class="btn btn-set-address flex start middle">
+                                <img src="image/add-address-2.png" />设为默认
+                            </a>
+                            <a href="javascript:;" class="btn btn-change-address flex start middle">
+                                <img src="image/write.png" />修改
+                            </a>
+                            <a href="javascript:;" class="btn btn-delete-address flex start middle">
+                                <img src="image/rubbish-2.png" />删除
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:;" class="show-all"
+                   data-expand="false">
+                    显示全部收货地址
+                    <img src="image/arrow-red.png" class="arrow-red" />
+                    <img src="image/arrow-grey.png" class="arrow-grey" />
+                </a>
+            </div>
+            <!--section-infor-->
+            <div class="section-infor">
+                <div class="title">确认订单信息</div>
+                <div class="thead flex start middle">
+                    <div class="th th-1"></div>
+                    <div class="th th-2">商品</div>
+                    <div class="th th-3">单价</div>
+                    <div class="th th-4">数量</div>
+                    <div class="th th-5">小计</div>
+                    <div class="th th-6">留言</div>
+                </div>
+                <div class="tbody">
+                    <div class="tr flex start middle">
+                        <div class="td td-1 flex center middle"><img src="image/img/product-3.jpg" /></div>
+                        <div class="td td-2">家政服务次卡-共4次</div>
+                        <div class="td td-3">499积分</div>
+                        <div class="td td-4">1张</div>
+                        <div class="td td-5 flex column center middle">
+                            <div class="text">499积分</div>
+                            <div class="sub-text">（含运费：0.00积分）</div>
+                        </div>
+                        <div class="td td-6 flex start middle">
+                            <textarea placeholder="选填,请先和商家协商一致"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section-gift tbody cake">
+                <div class="tr flex start middle">
+                    <div class="td td-1 flex center middle"><img src="image/img/product-3.jpg" /></div>
+                    <div class="td td-2">家政服务次卡-共4次(赠品)</div>
+                    <div class="td td-3">499积分</div>
+                    <div class="td td-4">1张</div>
+                    <div class="td td-5 flex column center middle">
+                        <div class="text">499积分</div>
+                        <div class="sub-text">（含运费：0.00积分）</div>
+                    </div>
+                    <div class="td td-6 flex start middle">
+                        <textarea placeholder="选填,请先和商家协商一致"></textarea>
+                    </div>
+                </div>
+            </div>
+
+            <!--section-time-->
+            <div class="section-time flex start top">
+                <div class="title">配送时间</div>
+                <div class="pannel date-pannel">
+                    <div class="pannel-title flex space-between middle">
+                        <div class="flex start middle">
+                            <img src="image/calender.png" class="icon" />
+                            <div class="text">
+                                请选择<span class="housekeep">服务</span><span class="cake vegetable">配送</span>日期
+                            </div>
+                        </div>
+                        <img src="image/arrow-grey.png" class="arrow" />
+                    </div>
+                    <div class="pannel-content" id="datepicker">
+
+                    </div>
+                </div>
+                <div class="pannel time-pannel housekeep cake">
+                    <div class="pannel-title flex space-between middle">
+                        <div class="flex start middle">
+                            <img src="image/clock-2.png" class="icon" />
+                            <div class="text">请选择<span class="housekeep">开始</span><span class="cake">配送</span>时间</div>
+                        </div>
+                        <img src="image/arrow-grey.png" class="arrow" />
+                    </div>
+                    <div class="pannel-content">
+                        <div class="pannel-content-title">
+                            <span class="housekeep">服务开始时间点</span>
+                            <span class="cake">配送时段</span>
+                        </div>
+                        <div class="flex space-between top pannel-contentt  choose-tabs">
+                            <div class="pannel-contentt-left housekeep">
+                                <div class="item choose-tab">09 : 00 开始</div>
+                                <div class="item choose-tab">13 : 00 开始</div>
+                                <div class="item choose-tab">15 : 00 开始</div>
+                            </div>
+                            <div class="pannel-contentt-right housekeep">
+                                <div class="item active choose-tab">10 : 00 开始</div>
+                                <div class="item choose-tab">14 : 00 开始</div>
+                                <div class="item choose-tab">16 : 00 开始</div>
+                            </div>
+                        </div>
+                        <div class="flex space-between top pannel-contentt  choose-tabs">
+                            <div class="pannel-contentt-left cake">
+                                <div class="item choose-tab">10 : 00-12 : 00</div>
+                                <div class="item choose-tab">14 : 00-16 : 00</div>
+                                <div class="item choose-tab">18 : 00-20 : 00</div>
+                            </div>
+                            <div class="pannel-contentt-right cake">
+                                <div class="item active choose-tab">12 : 00-14 : 00</div>
+                                <div class="item choose-tab">16 : 00-18 : 00</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tips">
+                    <div class="tips-title">温馨提示</div>
+                    <div class="tips-content housekeep">
+                        首次服务时间至早需要提前2天预约，临时改变上门服务时
+                        间请与客服联系 400-0917-686。
+                    </div>
+                    <div class="tips-content vegetable">
+                        首次配送时间至少需要提前2天预约，默认配送时间间隔一
+                        周，临时改变配送时间请与客服联系 400-0917-686。
+                    </div>
+                    <div class="tips-content cake">
+                        蛋糕配送时间10:00-19:30; 截单时间20:00; 20:00前下单,最
+                        早次日10:00配送; 20:00后下单,最早第三日10:00配送; 配送
+                        当天不可修改配送时间和配送地址; 实际配送可能会有30分
+                        钟左右误差，敬请谅解。
+                    </div>
+                </div>
+            </div>
+            <!--section-result-->
+            <div class="section-result flex column center bottom">
+                <div class="flex end middle line-1">
+                    <div class="line-1-1">共<span class="number">1</span>件商品</div>
+                    <div class="line-1-2">总积分:</div>
+                    <div class="line-1-3">499</div>积分
+                </div>
+                <div class="flex end middle line-2">
+                    <div class="line-2-1">运费:</div>
+                    <div class="line-2-2">0.00 </div>积分
+                </div>
+                <div class="flex end middle line-3">
+                    <div class="line-3-1">应付积分:</div>
+                    <div class="line-3-2"><span class="red">499</span> </div>积分
+                </div>
+                <div class="flex end middle line-4">
+                    <div class="line-4-1">寄送至:</div>
+                    <div class="line-4-2">唐伯虎大大</div>
+                    <div class="line-4-3">15230593659</div>
+                    <div class="line-4-4">上海市静安区永和路118弄东方环球企业中心43号1101室</div>
+                </div>
+                <div class="flex end middle line-5">
+                    <a href="pay.html" class="btn-submit">提交订单</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="items">
+            <div class="container flex center middle">
+                <div class="flex column center middle item">
+                    <img src="image/footer-1.png" class="footer-img" />
+                    <div class="title">正品保障</div>
+                    <div class="text">品牌厂商 直接供货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-2.png" class="footer-img" />
+                    <div class="title">发货快</div>
+                    <div class="text">24小时内快速发货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-3.png" class="footer-img" />
+                    <div class="title">用心服务</div>
+                    <div class="text">为您呈现不一样的服务</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-4.png" class="footer-img" />
+                    <div class="title">全场包邮</div>
+                    <div class="text">全国地区免费配送​​</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-5.png" class="footer-img" />
+                    <div class="title">7天退换</div>
+                    <div class="text">7天无理由退换货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-6.png" class="footer-img" />
+                    <div class="title">付款方便</div>
+                    <div class="text">多种付款 供您选择</div>
+                </div>
+            </div>
+        </div>
+        <div class="lists">
+            <div class="container flex center top ">
+                <div class="flex column start middle list">
+                    <div class="title">新手入门</div>
+                    <a href="javascript:;" class="text">如何注册</a>
+                    <a href="javascript:;" class="text">购物流程</a>
+                    <a href="javascript:;" class="text">充值积分</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">配送说明</div>
+                    <a href="javascript:;" class="text">配送范围</a>
+                    <a href="javascript:;" class="text">配送时间</a>
+                    <a href="javascript:;" class="text">商品信息</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">售后服务</div>
+                    <a href="javascript:;" class="text">退换货政策</a>
+                    <a href="javascript:;" class="text">申请退换货</a>
+                    <a href="javascript:;" class="text">常见问题</a>
+
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">产品管家</div>
+                    <a href="javascript:;" class="text">新品上新</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">关于我们</div>
+                    <a href="javascript:;" class="text">公司简介</a>
+                    <a href="javascript:;" class="text">业务范围</a>
+                    <a href="javascript:;" class="text">联系我们</a>
+                </div>
+                <div class="flex column start middle list">
+                    <img src="image/erweima.png" class="erweima" />
+                    <div class="title-erweima">扫描二维码关注我们</div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            地点：上海市静安区永和路118弄东方企业园43号1101室&emsp;&emsp;电话：400-0917-686&emsp;&emsp;邮箱：yujunmaoyi@foxmail.com  <br />
+            Copyright 版权所有 © 上海钰隽贸易有限公司&emsp;&emsp;沪ICP备16037107号-2
+        </div>
+    </div>
+
+    <img src="image/toTop.jpg" class="to-top" />
+    <div class="bk-cover"></div>
+    <div class="modal-shopping-cart flex column center middle">
+        <img src="image/add-shopping-cart.png" />
+        <div class="text">加入购物车成功</div>
+        <div class="flex center middle btns">
+            <a href="javascript:;" class="btn-remove-grey">继续购物</a>
+            <a href="javascript:;" class="btn-delete-ok">去结算</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datepicker.zh-CN.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/head.js"></script>
+    <script type="text/javascript" src="js/order.js"></script>
+</body>
+</html>

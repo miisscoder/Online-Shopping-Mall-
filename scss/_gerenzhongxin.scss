@@ -1,0 +1,275 @@
+﻿body.gerenzhongxin {
+    background-color: #f9f9f9;
+    position: relative;
+    /*main*/
+    .main {
+        .container {
+            color: #101010;
+            -webkit-text-fill-color: #101010;
+            margin-bottom: 180px;
+            font-size: 14px;
+            padding-top: 25px;
+
+            .section-list {
+
+                .titles {
+                    margin-bottom: 25px;
+                    font-size: 14px;
+                    height: 42px;
+                    padding-left: 30px;
+                    background-color: #ffffff;
+                    border: 1px solid #eeeeee;
+                }
+
+                .section-profile {
+                    background-color: #ffffff;
+                    padding-bottom: 100px;
+                    width: 905px;
+                    overflow: hidden;
+
+                    .section-profile-1 {
+                        padding-left: 80px;
+                        padding-top: 50px;
+                        padding-bottom: 50px;
+                        border-bottom: 1px solid #eeeeee;
+
+                        .image {
+                            width: 135px;
+                            height: 135px;
+                            border-radius: 50%;
+                            position: relative;
+                            overflow: hidden;
+
+                            img {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                            .text {
+                                position: absolute;
+                                bottom: 0;
+                                background-color: rgba(255,255,255,0.5);
+                                height: 24px;
+                                line-height: 24px;
+                                text-align: center;
+                                font-size: 12px;
+                                display: block;
+                                width: 100%;
+                            }
+                        }
+
+                        .info {
+                            font-size: 16px;
+                            margin-left: 30px;
+
+                            .text {
+                                line-height: 2;
+                            }
+                        }
+
+                        .right {
+                            padding-right: 100px;
+
+                            .text {
+                                font-size: 16px;
+
+                                .number {
+                                    font-size: 22px;
+                                }
+                            }
+                        }
+                    }
+
+                    .section-profile-2 {
+                        font-size: 16px;
+                        padding-left: 65px;
+
+                        .line {
+                            padding-top: 35px;
+
+                            .label {
+                                width: 130px;
+                            }
+
+                            .text {
+                                padding-left: 5px;
+                            }
+
+                            &.line-3 {
+
+                                .line-content {
+                                    padding-left: 5px;
+
+                                    input[type="radio"] {
+                                        margin: 0;
+                                    }
+
+                                    span {
+                                        padding-left: 5px;
+                                        padding-right: 20px;
+                                    }
+                                }
+                            }
+
+                            &.line-4 {
+                                .line-content {
+                                    input {
+                                        height: 20px;
+                                        width: 45px;
+                                    }
+
+                                    span {
+                                        padding-left: 10px;
+                                        padding-right: 10px;
+                                    }
+                                }
+                            }
+
+                            &.line-5 {
+                                .line-content {
+                                    input {
+                                        height: 20px;
+                                        width: 135px;
+                                    }
+                                }
+                            }
+                        }
+
+                        .btn-border {
+                            font-size: 18px;
+                            display: block;
+                            width: 175px;
+                            height: 45px;
+                            line-height: 45px;
+                            text-align: center;
+                            margin-top: 70px;
+                        }
+                    }
+                }
+
+                .section-change {
+                    display: none;
+                    width: 905px;
+                    overflow: hidden;
+
+                    .title-bar {
+                        background-color: #ffffff;
+                        font-size: 16px;
+                        padding-left: 30px;
+                        height: 80px;
+                        line-height: 80px;
+                        margin-bottom: 10px;
+                    }
+
+                    .section-change-content {
+                        background-color: #ffffff;
+                        padding-top: 35px;
+                        padding-left: 30px;
+                        padding-right: 20px;
+                        padding-bottom: 160px;
+
+                        .left {
+                            width: 90px;
+                            height: 90px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            background-color: #f6f5fb;
+
+                            img {
+                                width: 100%;
+                                height: auto;
+                            }
+                        }
+
+                        .right {
+                            margin-left: 15px;
+
+                            .section-change-content-title {
+                                padding-bottom: 22px;
+                            }
+
+                            .choose-tabs {
+                                width: 750px;
+
+                                .choose-tab {
+                                    width: 98px;
+                                    height: 98px;
+                                    margin-right: 25px;
+                                    margin-bottom: 25px;
+                                    border: 1px solid #d4d4d4;
+                                    cursor: pointer;
+
+                                    img {
+                                        width: 100%;
+                                        height: auto;
+                                    }
+
+                                    &.active {
+                                        border: 1px solid #cd000c;
+                                        position: relative;
+
+                                        &:after {
+                                            content: '';
+                                            display: block;
+                                            width: 15px;
+                                            height: 15px;
+                                            position: absolute;
+                                            right: 0;
+                                            bottom: 0;
+                                            background: url(../image/active.png) no-repeat 0 0;
+                                            background-position: center;
+                                            background-size: 100% 100%;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .des {
+                                padding-top: 10px;
+                                line-height: 1.8;
+                                padding-bottom: 10px;
+                            }
+
+                            img.update-img {
+                                width: 100px;
+                                height: 100px;
+                            }
+
+                            .btn-border {
+                                font-size: 12px;
+                                width: 100px;
+                                height: 20px;
+                                margin-top: 13px;
+                                text-align: center;
+                                line-height: 20px;
+                                cursor: pointer;
+                                position: relative;
+
+                                input[type="file"] {
+                                    opacity: 0;
+                                    width: 100px;
+                                    height: 20px;
+                                    position: absolute;
+                                    z-index: 10;
+                                    left: 0;
+                                    top: 0;
+                                    cursor: pointer;
+                                }
+                            }
+
+                            .btn-red {
+                                margin-top: 60px;
+                                font-size: 20px;
+                                display: block;
+                                width: 160px;
+                                height: 60px;
+                                line-height: 60px;
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

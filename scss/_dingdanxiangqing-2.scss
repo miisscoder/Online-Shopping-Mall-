@@ -1,0 +1,387 @@
+﻿body.dingdanxiangqing-2 {
+    background-color: #f9f9f9;
+    position: relative;
+    /*main*/
+    .main {
+        background-color: #ffffff;
+        margin-top: 10px;
+        margin-bottom: 200px;
+        padding-bottom: 50px;
+
+        &[data-type="housekeep"] {
+            .vegetable, .cake, .ttbody-gift {
+                display: none;
+            }
+        }
+
+        &[data-type="vegetable"] {
+            .housekeep, .cake, .ttbody-gift {
+                display: none;
+            }
+        }
+
+        &[data-type="cake"] {
+            .housekeep, .vegetable, .section-service {
+                display: none;
+            }
+        }
+
+        .container {
+            color: #101010;
+            -webkit-text-fill-color: #101010;
+            font-size: 14px;
+
+            .titles {
+                padding-left: 35px;
+                padding-top: 10px;
+                padding-bottom: 15px;
+
+                .title {
+                    font-size: 20px;
+                    padding-bottom: 12px;
+                    color: #cd000c;
+                    -webkit-text-fill-color: #cd000c;
+
+                    .subtitle {
+                        color: #969696;
+                        -webkit-text-fill-color: #969696;
+                        padding-left:15px;
+                        font-size:14px;
+                    }
+                }
+
+                .text {
+                    padding-right: 25px;
+                }
+            }
+
+            .deliver-infor {
+                padding-top: 30px;
+                padding-left: 35px;
+                padding-bottom: 35px;
+                margin-bottom: 50px;
+                border: 1px solid #eeeeee;
+
+                .title {
+                    font-size: 20px;
+                    padding-bottom: 20px;
+                }
+
+                .text {
+                    span {
+                        padding-right: 45px;
+
+                        .default {
+                            color: #dd7b07;
+                            -webkit-text-fill-color: #dd7b07;
+                            background-color: #ffecc7;
+                            padding: 2.5px 5px;
+                            margin-left: 15px;
+                        }
+                    }
+                }
+            }
+
+            .ttable {
+                border: 1px solid #eeeeee;
+                margin-bottom: 25px;
+
+                .title {
+                    line-height: 60px;
+                    font-size: 20px;
+                    padding-left: 35px;
+                }
+
+                .tthead {
+                    background-color: #f9f9f9;
+
+                    .tth {
+                        line-height: 50px;
+
+                        &.tth1 {
+                            width: 220px;
+                        }
+
+                        &.tth2 {
+                            width: 210px;
+                        }
+
+                        &.tth3 {
+                            width: 140px;
+                        }
+
+                        &.tth4 {
+                            width: 70px;
+                        }
+
+                        &.tth5 {
+                            width: 190px;
+                        }
+
+                        &.tth6 {
+                            width: 355px;
+                            text-align: left;
+                            padding-left: 15px;
+                        }
+                    }
+                }
+
+                .cake-deliver {
+                    height: 85px;
+                    border-top: 1px solid #eeeeee;
+                    border-left: 1px solid #eeeeee;
+                    border-right: 1px solid #eeeeee;
+
+                    span {
+                        font-size: 16px;
+                        padding-left: 50px;
+                        padding-right: 30px;
+                    }
+
+                    input {
+                        margin-right: 110px;
+                        width: 200px;
+                        height: 40px;
+                        line-height: 40px;
+                        padding: 0 20px;
+                    }
+                }
+            }
+
+            .ttbody {
+                .ttr {
+                    border-bottom: 1px solid #eeeeee;
+
+                    &:last-of-type {
+                        border-bottom: none;
+                    }
+
+                    .ttd {
+                        height: 195px;
+
+                        &.ttd1 {
+                            width: 220px;
+
+                            a {
+                                display: block;
+
+                                img {
+                                    height: auto;
+                                    width: 150px;
+                                }
+                            }
+                        }
+
+                        &.ttd2 {
+                            width: 210px;
+
+                            .text {
+                                text-align: center;
+                                width: 100%;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                display: -webkit-box; //将对象作为弹性伸缩盒子模型显示
+                                -webkit-line-clamp: 3; //控制显示几行文字
+                                -webkit-box-orient: vertical; //设置伸缩盒对象的子元素排列方式
+                            }
+                        }
+
+                        &.ttd3 {
+                            width: 140px;
+                        }
+
+                        &.ttd4 {
+                            width: 70px;
+                        }
+
+                        &.ttd5 {
+                            width: 190px;
+
+                            .red {
+                                color: #cd000c;
+                                -webkit-text-fill-color: #cd000c;
+                                padding-bottom: 5px;
+                            }
+
+                            .grey {
+                                color: #a7a7a7;
+                                -webkit-text-fill-color: #a7a7a7;
+                                font-size: 12px;
+                            }
+                        }
+
+                        &.ttd6 {
+                            width: 370px;
+
+                            textarea {
+                                padding: 15px 25px;
+                                height: 155px;
+                                width: 310px;
+                                background-color: #f9f9f9;
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+
+                &.ttbody-gift {
+                    margin-bottom: 70px;
+                    border: 1px solid #d2d2d2;
+
+                    .ttd.ttd6 {
+                        height: 280px;
+
+                        textarea {
+                            padding: 15px 25px;
+                            height: 240px;
+                        }
+                    }
+                }
+            }
+
+            .section-service {
+                margin-bottom: 20px;
+                padding: 10px 25px 20px 35px;
+                background-color: #f9f9f9;
+
+                &[data-status="current"] {
+                    .todo, .done {
+                        display: none;
+                    }
+                }
+
+                &[data-status="todo"] {
+                    .current, .done {
+                        display: none;
+                    }
+                }
+
+                &[data-status="done"] {
+                    .todo, .current {
+                        display: none;
+                    }
+
+                    .text-1, .text-2, input {
+                        color: #bababa;
+                        -webkit-text-fill-color: #bababa;
+                    }
+                }
+
+                .text-1 {
+                    font-size: 16px;
+                }
+
+                input {
+                    height: 40px;
+                    border: 1px solid #d2d2d2;
+                    margin-top: 15px;
+                    margin-bottom: 17px;
+                    margin-right: 100px;
+                    padding: 0 20px;
+                    font-size: 14px;
+                }
+
+                .line-1 {
+                    height: 60px;
+                    margin-bottom: 12px;
+
+
+                    .text-2 {
+                        font-size: 20px;
+
+                        &.current {
+                            color: #cd000c;
+                            -webkit-text-fill-color: #cd000c;
+                        }
+                    }
+                }
+
+                .line-2 {
+                    .text-group {
+                        .text-1 {
+                        }
+
+                        .input-1 {
+                            width: 210px;
+                        }
+
+                        .input-2 {
+                            width: 130px;
+                        }
+
+                        .input-3 {
+                            width: 260px;
+                        }
+                    }
+                }
+
+                .line-3 {
+                    .text-1 {
+                    }
+
+                    input {
+                        width: 660px;
+                    }
+                }
+            }
+
+            .bottom-payment {
+                margin-top: 35px;
+                padding-top: 25px;
+                padding-bottom: 30px;
+                padding-right: 50px;
+                background-color: #f9f9f9;
+
+                .label {
+                    text-align: right;
+                    width: 80px;
+                }
+
+                .result {
+                    width: 90px;
+                    text-align: right;
+
+                    .unit {
+                        padding-left: 2px;
+                    }
+                }
+
+
+                .line-1 {
+                    padding-bottom: 20px;
+
+                    .line-1-1 {
+                        .number {
+                            padding: 0 15px;
+                        }
+                    }
+                }
+
+                .line-2 {
+                    padding-bottom: 15px;
+                }
+
+                .line-3 {
+                    padding-bottom: 10px;
+
+                    .result {
+                        .red {
+                            font-size: 20px;
+                            color: #cd000c;
+                            -webkit-text-fill-color: #cd000c;
+                        }
+                    }
+                }
+
+                .line-4 {
+                    font-size: 12px;
+
+                    .line-4-1, .line-4-2, .line-4-3, .line-4-4 {
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

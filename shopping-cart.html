@@ -1,0 +1,372 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>我的购物车</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body class="shopping-cart">
+    <div class="topbar">
+        <div class="container flex space-between middle">
+            <div class="left flex space-between middle">
+                <div class="hello">您好！欢迎来到福励惠商城！</div>
+                <div class="text">
+                    <span class="name">唐伯虎大大</span>
+                    <a href="javascript:;" class="logout">退出登录</a>
+                </div>
+            </div>
+            <div class="right flex space-between middle">
+                <a href="index.html" class="index-page">福励惠首页</a>
+                <a href="collect.html" class="favor-page">我的收藏</a>
+                <span class="tel">全国服务热线：400-0917-686</span>
+            </div>
+        </div>
+    </div>
+    <div class="header-index">
+        <div class="container flex space-between middle">
+            <a href="index.html" class="flex start middle left">
+                <img src="image/logo.png" class="logo" />
+            </a>
+            <div class="flex end middle right">
+                <div class="search-group flex space-between middle">
+                    <input placeholder="请输入关键词进行搜索" />
+                    <img src="image/search.png" class="search" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-list">
+        <!--无商品-->
+        <div class="flex column center middle empty">
+            <img src="image/cart-empty.png" class="empty-box" />
+            <div class="text">购物车空空的哦~去看看心仪的商品吧!</div>
+            <a href="index.html" class="btn-red">去首页</a>
+        </div>
+        <!--无商品 end-->
+        <!--有商品-->
+        <div class="container">
+            <div class="titles">
+                全部商品&emsp;4
+            </div>
+            <div class="flex start middle items-header">
+                <div class="th th1 flex start middle">
+                    <div class="checkbox-group checkbox-group-rect check-all">
+                        <input type="checkbox" />
+                        <label></label>
+                    </div>
+                    <div class="text">全选</div>
+                </div>
+                <div class="th th2">
+                    商品信息
+                </div>
+                <div class="th th3">
+                    规格
+                </div>
+                <div class="th th4">
+                    单价
+                </div>
+                <div class="th th5">
+                    数量
+                </div>
+                <div class="th th6">
+                    积分
+                </div>
+                <div class="th th7">
+                    操作
+                </div>
+            </div>
+            <div class="items">
+            </div>
+            <div class="flex start middle items-footer">
+                <div class="tf tf1 flex start middle">
+                    <div class="checkbox-group checkbox-group-rect check-all">
+                        <input type="checkbox" />
+                        <label></label>
+                    </div>
+                    <div class="text">全选</div>
+                </div>
+                <div class="tf tf2">
+                    <a href="javascript:;" class="clear">删除选中的商品</a>
+                </div>
+                <div class="tf tf3">
+                    已选商品<span class="number">1</span>件
+                </div>
+                <div class="tf tf4">
+                    合计：<span class="sum">650积分</span>
+                </div>
+                <a href="javascript:;" class="btn-red">去结算</a>
+            </div>
+        </div>
+        <!--有商品 end-->
+    </div>
+    <div class="section-recommend">
+        <div class="container">
+            <div class="titles">
+                <div class="title">购物车帮选</div>
+                <div class="subtitle">看看加购过该商品的人还喜欢哪些</div>
+            </div>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item flex column start center">
+                            <img src="image/img/product.jpg" />
+                            <div class="text">摩飞便携式电热水壶</div>
+                            <div class="flex space-between middle item-bottom">
+                                <div class="current">积分：14801</div>
+                                <img src="image/shopping-cart-red.png" class="cart" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="items">
+            <div class="container flex center middle">
+                <div class="flex column center middle item">
+                    <img src="image/footer-1.png" class="footer-img" />
+                    <div class="title">正品保障</div>
+                    <div class="text">品牌厂商 直接供货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-2.png" class="footer-img" />
+                    <div class="title">发货快</div>
+                    <div class="text">24小时内快速发货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-3.png" class="footer-img" />
+                    <div class="title">用心服务</div>
+                    <div class="text">为您呈现不一样的服务</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-4.png" class="footer-img" />
+                    <div class="title">全场包邮</div>
+                    <div class="text">全国地区免费配送​​</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-5.png" class="footer-img" />
+                    <div class="title">7天退换</div>
+                    <div class="text">7天无理由退换货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-6.png" class="footer-img" />
+                    <div class="title">付款方便</div>
+                    <div class="text">多种付款 供您选择</div>
+                </div>
+            </div>
+        </div>
+        <div class="lists">
+            <div class="container flex center top ">
+                <div class="flex column start middle list">
+                    <div class="title">新手入门</div>
+                    <a href="javascript:;" class="text">如何注册</a>
+                    <a href="javascript:;" class="text">购物流程</a>
+                    <a href="javascript:;" class="text">充值积分</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">配送说明</div>
+                    <a href="javascript:;" class="text">配送范围</a>
+                    <a href="javascript:;" class="text">配送时间</a>
+                    <a href="javascript:;" class="text">商品信息</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">售后服务</div>
+                    <a href="javascript:;" class="text">退换货政策</a>
+                    <a href="javascript:;" class="text">申请退换货</a>
+                    <a href="javascript:;" class="text">常见问题</a>
+
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">产品管家</div>
+                    <a href="javascript:;" class="text">新品上新</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">关于我们</div>
+                    <a href="javascript:;" class="text">公司简介</a>
+                    <a href="javascript:;" class="text">业务范围</a>
+                    <a href="javascript:;" class="text">联系我们</a>
+                </div>
+                <div class="flex column start middle list">
+                    <img src="image/erweima.png" class="erweima" />
+                    <div class="title-erweima">扫描二维码关注我们</div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            地点：上海市静安区永和路118弄东方企业园43号1101室&emsp;&emsp;电话：400-0917-686&emsp;&emsp;邮箱：yujunmaoyi@foxmail.com  <br />
+            Copyright 版权所有 © 上海钰隽贸易有限公司&emsp;&emsp;沪ICP备16037107号-2
+        </div>
+    </div>
+    <img src="image/toTop.jpg" class="to-top" />
+    <div class="bk-cover"></div>
+    <div class="modal-delete flex column center middle">
+        <img src="image/exclamation.png" />
+        <div class="text">是否确认删除？</div>
+        <div class="flex center middle btns">
+            <a href="javascript:;" class="btn-remove-grey">再想想</a>
+            <a href="javascript:;" class="btn-delete-ok">确认删除</a>
+        </div>
+    </div>
+    <div class="modal-remove flex column center middle">
+        <img src="image/exclamation.png" />
+        <div class="text">是否确认全部删除？</div>
+        <div class="flex center middle btns">
+            <a href="javascript:;" class="btn-remove-grey">再想想</a>
+            <a href="javascript:;" class="btn-delete-ok">确认删除</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/head.js"></script>
+    <script type="text/javascript" src="js/shopping-cart.js"></script>
+</body>
+</html>

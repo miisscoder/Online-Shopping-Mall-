@@ -1,0 +1,532 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body class="wodejifen">
+    <!--topbar-->
+    <div class="topbar">
+        <div class="container flex space-between middle">
+            <div class="left flex space-between middle">
+                <div class="hello">您好！欢迎来到福励惠商城！</div>
+                <div class="text">
+                    <span class="name">唐伯虎大大</span>
+                    <a href="javascript:;" class="logout">退出登录</a>
+                </div>
+            </div>
+            <div class="right flex space-between middle">
+                <a href="index.html" class="index-page">福励惠首页</a>
+                <a href="collect.html" class="favor-page">我的收藏</a>
+                <span class="tel">全国服务热线：400-0917-686</span>
+            </div>
+        </div>
+    </div>
+    <!--header-index-->
+    <div class="header-index">
+        <div class="container flex space-between middle">
+            <a href="index.html" class="flex start middle left">
+                <img src="image/logo.png" class="logo" />
+            </a>
+            <div class="flex end middle right">
+                <div id="search" class="search-group flex space-between middle dropdown-menu-search">
+                    <input placeholder="请输入关键词进行搜索" />
+                    <img src="image/search.png" class="search" />
+                    <div class="dropdown-menu">
+                        <div class="dropdown-list">
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                        </div>
+                        <div class="flex end middle dropdown-bottom">
+                            <a href="javascript:;" class="dropdown-delete-all">全部删除</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="shopping-cart.html"
+                   class="flex space-between middle cart-group">
+                    <img src="image/shopping-cart.png" class="cart" />
+                    <span class="text">购物车12件商品</span>
+                </a>
+                <a href="message.html" class="flex column center msg-group">
+                    <div class="badge">23</div>
+                    <img src="image/msg.png" class="msg" />
+                    <div class="text">消息</div>
+                </a>
+                <a href="history.html" class="flex column center clock-group">
+                    <img src="image/clock.png" class="clock" />
+                    <div class="text">足迹</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--menus-->
+    <div class="menus">
+        <div class="container flex start middle">
+            <div class="main-menu">
+                <div class="main-menu-title">全部商品分类</div>
+                <div class="main-dropdown-menu">
+                    <div class="main-dropdown-item flex start middle" data-id="1">
+                        <img src="image/tab-1.png" class="tab-img" /> 品牌蛋糕 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="2">
+                        <img src="image/tab-2.png" class="tab-img" /> 知名品牌 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="3">
+                        <img src="image/tab-3.png" class="tab-img" /> 指定活动 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="4">
+                        <img src="image/tab-4.png" class="tab-img" /> 生鲜助农 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="5">
+                        <img src="image/tab-5.png" class="tab-img" /> 彩妆工具 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="6">
+                        <img src="image/tab-6.png" class="tab-img" /> 皮肤护理 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="7">
+                        <img src="image/tab-7.png" class="tab-img" /> 个人护理 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="8">
+                        <img src="image/tab-8.png" class="tab-img" /> 生活用品 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="9">
+                        <img src="image/tab-9.png" class="tab-img" /> 家居家纺 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="10">
+                        <img src="image/tab-10.png" class="tab-img" /> 厨房用品 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="11">
+                        <img src="image/tab-11.png" class="tab-img" /> 箱包装饰 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="12">
+                        <img src="image/tab-12.png" class="tab-img" /> 数码3C <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="13">
+                        <img src="image/tab-13.png" class="tab-img" /> 家用电器 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="14">
+                        <img src="image/tab-14.png" class="tab-img" /> 粮油副食 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="15">
+                        <img src="image/tab-15.png" class="tab-img" /> 特价零食 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="16">
+                        <img src="image/tab-16.png" class="tab-img" /> 户外休闲 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="17">
+                        <img src="image/tab-17.png" class="tab-img" /> 保健养生 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle last-one" data-id="18">
+                        <img src="image/tab-18.png" class="tab-img" /> 汽配装饰 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                </div>
+                <div class="main-dropdown-menu-sub flex column start">
+                </div>
+            </div>
+            <a href="index.html" class="link first-link">商城首页</a>
+            <a href="miaosha.html" class="link">限时秒杀</a>
+            <a href="shangxin.html" class="link">今日上新</a>
+            <a href="baokuan.html" class="link">爆款推荐</a>
+            <a href="javascript:;" class="link">电影票</a>
+            <a href="gerenzhongxin.html" class="link active">我的账户</a>
+            <div class="dropdown-about">
+                <a href="javascript:;" class="link">
+                    关于我们
+                </a>
+                <div class="dropdown-menu">
+                    <a href="about-us-1.html" class="dropdown-item">
+                        公司简介
+                    </a>
+                    <a href="about-us-2.html" class="dropdown-item">
+                        业务范围
+                    </a>
+                    <a href="about-us-3.html" class="dropdown-item">
+                        联系我们
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container  flex space-between top">
+            <div class="wodezhanghu-links">
+                <a href="gerenzhongxin.html" class="link">个人中心</a>
+                <a href="wodejifen.html" class="link active">我的积分</a>
+                <a href="dingdanxiangqing.html" class="link">订单详情</a>
+                <a href="shouhuodizhi.html" class="link">收货地址</a>
+                <a href="xiugaimima.html" class="link">修改支付密码</a>
+                <a href="xinshourumen.html" class="link">新手入门</a>
+                <a href="peisongshuoming.html" class="link">配送说明</a>
+                <a href="shouhoufuwu.html" class="link">售后服务</a>
+                <a href="chanpinguanjia.html" class="link">产品管家</a>
+                <a href="yonghuxieyi.html" class="link">用户协议</a>
+            </div>
+            <!--section-list-->
+            <div class="section-list">
+                <div class="titles flex start middle">
+                    您当前的位置：<a href="index.html">网站首页</a> >> 我的账户
+                </div>
+                <div class="section-main tab-template" data-active="0">
+                    <!--titles-->
+                    <div class="section-main-titles">
+                        <div class="title">可用积分</div>
+                        <div class="subtitle">95659</div>
+                    </div>
+                    <!--choose-tabs-->
+                    <div class="choose-tabs">
+                        <div class="flex space-between middle">
+                            <div class="choose-tab flex center middle" data-tab="1">
+                                <img src="image/wechat.png" />微信充值
+                            </div>
+                            <div class="choose-tab flex center middle" data-tab="2">
+                                <img src="image/zfb.png" />支付宝充值
+                            </div>
+                            <div class="choose-tab flex center middle" data-tab="3">
+                                <img src="image/coupon.png" />积分卡充值
+                            </div>
+                            <div class="choose-tab flex center middle" data-tab="4">
+                                <img src="image/integral.png" />积分明细
+                            </div>
+                        </div>
+                    </div>
+                    <!--money-items-->
+                    <div class="money-items">
+                        <div class="flex center middle wrap">
+                            <div class="money-item flex column center middle"
+                                 data-money="6" data-amount="0">
+                                <div class="text">￥ 6元</div>
+                                <div class="sub-text">60积分</div>
+                                <div class="badge">0</div>
+                            </div>
+                            <div class="money-item flex column center middle "
+                                 data-money="30" data-amount="0">
+                                <div class="text">￥ 30元</div>
+                                <div class="sub-text">300积分</div>
+                                <div class="badge">0</div>
+                            </div>
+                            <div class="money-item flex column center middle "
+                                 data-money="68" data-amount="0">
+                                <div class="text">￥ 68元</div>
+                                <div class="sub-text">680积分</div>
+                                <div class="badge">0</div>
+                            </div>
+                            <div class="money-item flex column center middle "
+                                 data-money="128" data-amount="0">
+                                <div class="text">￥ 128元</div>
+                                <div class="sub-text">1280积分</div>
+                                <div class="badge">0</div>
+                            </div>
+                            <div class="money-item flex column center middle "
+                                 data-money="198" data-amount="0">
+                                <div class="text">￥ 198元</div>
+                                <div class="sub-text">1980积分</div>
+                                <div class="badge">0</div>
+                            </div>
+                            <div class="money-item flex column center middle "
+                                 data-money="328" data-amount="0">
+                                <div class="text">￥ 328元</div>
+                                <div class="sub-text">3280积分</div>
+                                <div class="badge">0</div>
+                            </div>
+                            <div class="money-item flex column center middle"
+                                 data-money="488" data-amount="0">
+                                <div class="text">￥ 488元</div>
+                                <div class="sub-text">4880积分</div>
+                                <div class="badge">0</div>
+                            </div>
+                            <div class="money-item flex column center middle "
+                                 data-money="648" data-amount="0">
+                                <div class="text">￥ 648元</div>
+                                <div class="sub-text">6480积分</div>
+                                <div class="badge">0</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--payment-->
+                    <div class="payment">
+                        <div class="flex column center bottom">
+                            <div class="flex end middle payment-item"
+                                 data-money="6" data-amount="0">
+                                <div class="label"> 6元</div>
+                                <div class="line-content flex start middle td6">
+                                    <a href="javascript:;" class="minus flex center middle">-</a>
+                                    <input class="number" type="tel" value="0" />
+                                    <a href="javascript:;" class="add flex center middle">+</a>
+                                </div>
+                            </div>
+                            <div class="flex end middle payment-item"
+                                 data-money="30" data-amount="0">
+                                <div class="label"> 30元</div>
+                                <div class="line-content flex start middle td6">
+                                    <a href="javascript:;" class="minus flex center middle">-</a>
+                                    <input class="number" type="tel" value="0" />
+                                    <a href="javascript:;" class="add flex center middle">+</a>
+                                </div>
+                            </div>
+                            <div class="flex end middle payment-item"
+                                 data-money="68" data-amount="0">
+                                <div class="label"> 68元</div>
+                                <div class="line-content flex start middle td6">
+                                    <a href="javascript:;" class="minus flex center middle">-</a>
+                                    <input class="number" type="tel" value="0" />
+                                    <a href="javascript:;" class="add flex center middle">+</a>
+                                </div>
+                            </div>
+                            <div class="flex end middle payment-item"
+                                 data-money="128" data-amount="0">
+                                <div class="label"> 128元</div>
+                                <div class="line-content flex start middle td6">
+                                    <a href="javascript:;" class="minus flex center middle">-</a>
+                                    <input class="number" type="tel" value="0" />
+                                    <a href="javascript:;" class="add flex center middle">+</a>
+                                </div>
+                            </div>
+                            <div class="flex end middle payment-item"
+                                 data-money="198" data-amount="0">
+                                <div class="label"> 198元</div>
+                                <div class="line-content flex start middle td6">
+                                    <a href="javascript:;" class="minus flex center middle">-</a>
+                                    <input class="number" type="tel" value="0" />
+                                    <a href="javascript:;" class="add flex center middle">+</a>
+                                </div>
+                            </div>
+                            <div class="flex end middle payment-item"
+                                 data-money="328" data-amount="0">
+                                <div class="label"> 328元</div>
+                                <div class="line-content flex start middle td6">
+                                    <a href="javascript:;" class="minus flex center middle">-</a>
+                                    <input class="number" type="tel" value="0" />
+                                    <a href="javascript:;" class="add flex center middle">+</a>
+                                </div>
+                            </div>
+                            <div class="flex end middle payment-item"
+                                 data-money="488" data-amount="0">
+                                <div class="label"> 488元</div>
+                                <div class="line-content flex start middle td6">
+                                    <a href="javascript:;" class="minus flex center middle">-</a>
+                                    <input class="number" type="tel" value="0" />
+                                    <a href="javascript:;" class="add flex center middle">+</a>
+                                </div>
+                            </div>
+                            <div class="flex end middle payment-item"
+                                 data-money="648" data-amount="0">
+                                <div class="label"> 648元</div>
+                                <div class="line-content flex start middle td6">
+                                    <a href="javascript:;" class="minus flex center middle">-</a>
+                                    <input class="number" type="tel" value="0" />
+                                    <a href="javascript:;" class="add flex center middle">+</a>
+                                </div>
+                            </div>
+                            <div class="foluma flex end middle">
+                                总积分：60×<span class="money-amount" data-money="6">0</span>+300×<span class="money-amount"  data-money="30">0</span>+
+                                680×<span class="money-amount"  data-money="68">0</span>+1280×<span class="money-amount"  data-money="128">0</span>+
+                                1980×<span class="money-amount"  data-money="198">0</span>+3280×<span class="money-amount"  data-money="328">0</span>+
+                                4880×<span class="money-amount"  data-money="488">0</span>+6480×<span class="money-amount"  data-money="648">0</span>=<span class="result-integral">0</span>
+                            </div>
+                            <div class="must flex end middle">应付金额：￥<span class="result-money">0</span>，共<span class="result-integral">0</span>积分</div>
+                            <a href="javascript:;" class="btn-red btn-wechat">微信充值</a>
+                            <a href="javascript:;" class="btn-red btn-zfb">支付宝充值</a>
+                        </div>
+                    </div>
+                    <!--specification-->
+                    <div class="specification">
+                        <div class="tab-container-title">充值说明</div>
+                        <div class="ariticle">
+                            <p>
+                                a、首次充值有且只有一次，可以自由选择任一档位，除充值赠送积分外，额外获取最高档位首充积分的50%；例：充6元、30元、68元，首充最高档位68元，获取首充积分680+78+680×50%=1098；获取本次充值总积分66+333+680+78+680×50%+1497。
+                            </p>
+                            <p>
+                                b、您可以在以下充值档位中自由搭配充值金额。
+                            </p>
+                            <p>
+                                c、充值档位划分
+                            </p>
+                            <img src="image/table.jpg" class="table" />
+                            <p>
+                                注：首充返积分活动，只选取搭配金额中的最高充值档位。<br />
+                                &emsp;&emsp;首充只享受一次，不限档位。
+                            </p>
+                        </div>
+                    </div>
+                    <!--coupon-content-->
+                    <div class="coupon-content">
+                        <div class="input-group">
+                            <div class="label">
+                                输入卡券账号
+                            </div>
+                            <input type="text" />
+                        </div>
+                        <div class="input-group">
+                            <div class="label">
+                                输入卡券密码
+                            </div>
+                            <input type="text" />
+                        </div>
+                        <a href="javascript:;" class="btn-red btn-coupon">立即充值优惠券</a>
+                    </div>
+                    <!--integral-->
+                    <div class="integral">
+                        <div class="thead flex space-between middle">
+                            <div class="th th1">说明</div>
+                            <div class="th th2">积分</div>
+                            <div class="th th3">日期</div>
+                        </div>
+                        <div class="ttbody">
+                            <div class="ttr flex space-between middle">
+                                <div class="ttd ttd1">蒙牛特仑苏纯牛奶250ml/盒 12盒装</div>
+                                <div class="ttd ttd2">-803</div>
+                                <div class="ttd ttd3">2020-12-29 13:14:25</div>
+                            </div>
+                            <div class="ttr flex space-between middle">
+                                <div class="ttd ttd1">蒙牛特仑苏纯牛奶250ml/盒 12盒装</div>
+                                <div class="ttd ttd2">-803</div>
+                                <div class="ttd ttd3">2020-12-29 13:14:25</div>
+                            </div>
+                            <div class="ttr flex space-between middle">
+                                <div class="ttd ttd1">蒙牛特仑苏纯牛奶250ml/盒 12盒装</div>
+                                <div class="ttd ttd2">-803</div>
+                                <div class="ttd ttd3">2020-12-29 13:14:25</div>
+                            </div>
+                            <div class="ttr flex space-between middle">
+                                <div class="ttd ttd1">蒙牛特仑苏纯牛奶250ml/盒 12盒装</div>
+                                <div class="ttd ttd2">-803</div>
+                                <div class="ttd ttd3">2020-12-29 13:14:25</div>
+                            </div>
+                            <div class="ttr flex space-between middle">
+                                <div class="ttd ttd1">蒙牛特仑苏纯牛奶250ml/盒 12盒装</div>
+                                <div class="ttd ttd2">-803</div>
+                                <div class="ttd ttd3">2020-12-29 13:14:25</div>
+                            </div>
+                        </div>
+                        <div class="pagination flex center middle">
+                            <a href="javascript:;" class="btn-last fade flex center middle"><img src="image/arrow-grey.png" /></a>
+                            <a href="javascript:;" class="btn-page flex center middle active">1</a>
+                            <a href="javascript:;" class="btn-page flex center middle">2</a>
+                            <a href="javascript:;" class="btn-page flex center middle">3</a>
+                            <a href="javascript:;" class="btn-page flex center middle">...</a>
+                            <a href="javascript:;" class="btn-page flex center middle">20</a>
+                            <a href="javascript:;" class="btn-page flex center middle">21</a>
+                            <a href="javascript:;" class="btn-page flex center middle">22</a>
+                            <a href="javascript:;" class="btn-page flex center middle">...</a>
+                            <a href="javascript:;" class="btn-page flex center middle">261</a>
+                            <a href="javascript:;" class="btn-page flex center middle">262</a>
+                            <a href="javascript:;" class="btn-page flex center middle">263</a>
+                            <a href="javascript:;" class="btn-next flex center middle"><img src="image/arrow-grey.png" /></a>
+                            <div class="sum">共 263 页</div>
+                            <div class="text-goto">前往</div>
+                            <input type="text" />
+                            <div class="text-page">页</div>
+                            <a href="javascript:;" class="btn-goto">跳转</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="items">
+            <div class="container flex center middle">
+                <div class="flex column center middle item">
+                    <img src="image/footer-1.png" class="footer-img" />
+                    <div class="title">正品保障</div>
+                    <div class="text">品牌厂商 直接供货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-2.png" class="footer-img" />
+                    <div class="title">发货快</div>
+                    <div class="text">24小时内快速发货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-3.png" class="footer-img" />
+                    <div class="title">用心服务</div>
+                    <div class="text">为您呈现不一样的服务</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-4.png" class="footer-img" />
+                    <div class="title">全场包邮</div>
+                    <div class="text">全国地区免费配送​​</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-5.png" class="footer-img" />
+                    <div class="title">7天退换</div>
+                    <div class="text">7天无理由退换货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-6.png" class="footer-img" />
+                    <div class="title">付款方便</div>
+                    <div class="text">多种付款 供您选择</div>
+                </div>
+            </div>
+        </div>
+        <div class="lists">
+            <div class="container flex center top ">
+                <div class="flex column start middle list">
+                    <div class="title">新手入门</div>
+                    <a href="javascript:;" class="text">如何注册</a>
+                    <a href="javascript:;" class="text">购物流程</a>
+                    <a href="javascript:;" class="text">充值积分</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">配送说明</div>
+                    <a href="javascript:;" class="text">配送范围</a>
+                    <a href="javascript:;" class="text">配送时间</a>
+                    <a href="javascript:;" class="text">商品信息</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">售后服务</div>
+                    <a href="javascript:;" class="text">退换货政策</a>
+                    <a href="javascript:;" class="text">申请退换货</a>
+                    <a href="javascript:;" class="text">常见问题</a>
+
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">产品管家</div>
+                    <a href="javascript:;" class="text">新品上新</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">关于我们</div>
+                    <a href="javascript:;" class="text">公司简介</a>
+                    <a href="javascript:;" class="text">业务范围</a>
+                    <a href="javascript:;" class="text">联系我们</a>
+                </div>
+                <div class="flex column start middle list">
+                    <img src="image/erweima.png" class="erweima" />
+                    <div class="title-erweima">扫描二维码关注我们</div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            地点：上海市静安区永和路118弄东方企业园43号1101室&emsp;&emsp;电话：400-0917-686&emsp;&emsp;邮箱：yujunmaoyi@foxmail.com  <br />
+            Copyright 版权所有 © 上海钰隽贸易有限公司&emsp;&emsp;沪ICP备16037107号-2
+        </div>
+    </div>
+    <img src="image/toTop.jpg" class="to-top" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/head.js"></script>
+    <script type="text/javascript" src="js/menus.js"></script>
+    <script type="text/javascript" src="js/wodejifen.js"></script>
+</body>
+</html>

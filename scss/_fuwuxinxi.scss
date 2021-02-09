@@ -1,0 +1,52 @@
+﻿body.fuwuxinxi {
+    background-color: #f9f9f9;
+    position: relative;
+
+    .header-index {
+        background-color: #f9f9f9;
+    }
+    /*main*/
+    .main {
+        background-color: #ffffff;
+        margin-bottom: 200px;
+
+        .container {
+            color: #101010;
+            -webkit-text-fill-color: #101010;
+            font-size: 14px;
+            margin-top: 10px;
+            padding-bottom: 100px;
+
+            .title {
+                font-size: 20px;
+                color: #cd000c;
+                -webkit-text-fill-color: #cd000c;
+                line-height: 80px;
+                padding-left: 35px;
+            }
+
+            .content {
+                padding-left: 35px;
+                padding-top: 32px;
+                padding-bottom: 45px;
+                background-color: #f9f9f9;
+
+                .infor-group {
+                    .label {
+                        font-size: 16px;
+                        padding-bottom: 15px;
+                    }
+
+                    input {
+                        border: 1px solid #d2d2d2;
+                        width: 600px;
+                        height: 40px;
+                        line-height: 40px;
+                        padding: 0 18px;
+                        margin-bottom: 25px;
+                    }
+                }
+            }
+        }
+    }
+}

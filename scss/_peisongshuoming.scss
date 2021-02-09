@@ -1,0 +1,51 @@
+﻿body.peisongshuoming {
+    background-color: #f9f9f9;
+    position: relative;
+    /*main*/
+    .main {
+        .container {
+            color: #101010;
+            -webkit-text-fill-color: #101010;
+            font-size: 14px;
+            padding-top: 25px;
+
+            .section-list {
+                .titles {
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    height: 42px;
+                    padding-left: 30px;
+                    background-color: #ffffff;
+                    border: 1px solid #eeeeee;
+                }
+
+                .section-main {
+                    margin-bottom: 100px;
+                    width: 905px;
+                    overflow: hidden;
+                    background-color: #ffffff;
+                    min-height: 455px;
+
+                    .title {
+                        font-size: 16px;
+                        padding-left: 35px;
+                        padding-bottom: 20px;
+                        padding-top: 40px;
+                    }
+
+                    .text {
+                        padding-left: 35px;
+                        padding-right: 35px;
+                        line-height: 1.5;
+
+                        article {
+                            padding-top: 45px;
+                            font-size: 12px;
+                            padding-bottom: 290px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

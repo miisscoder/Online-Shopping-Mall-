@@ -1,0 +1,320 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+<body class="about-us-3" onload="initialize()">
+    <!--topbar-->
+    <div class="topbar">
+        <div class="container flex space-between middle">
+            <div class="left flex space-between middle">
+                <div class="hello">您好！欢迎来到福励惠商城！</div>
+                <div class="text">
+                    <span class="name">唐伯虎大大</span>
+                    <a href="javascript:;" class="logout">退出登录</a>
+                </div>
+            </div>
+            <div class="right flex space-between middle">
+                <a href="index.html" class="index-page">福励惠首页</a>
+                <a href="collect.html" class="favor-page">我的收藏</a>
+                <span class="tel">全国服务热线：400-0917-686</span>
+            </div>
+        </div>
+    </div>
+    <!--header-index-->
+    <div class="header-index">
+        <div class="container flex space-between middle">
+            <a href="index.html" class="flex start middle left">
+                <img src="image/logo.png" class="logo" />
+            </a>
+            <div class="flex end middle right">
+                <div id="search" class="search-group flex space-between middle dropdown-menu-search">
+                    <input placeholder="请输入关键词进行搜索" />
+                    <img src="image/search.png" class="search" />
+                    <div class="dropdown-menu">
+                        <div class="dropdown-list">
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                            <div class="dropdown-item flex space-between middle">
+                                <a href="javascript:;" class="text">三只松鼠</a>
+                                <a href="javascript:;" class="dropdown-delete">删除</a>
+                            </div>
+                        </div>
+                        <div class="flex end middle dropdown-bottom">
+                            <a href="javascript:;" class="dropdown-delete-all">全部删除</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="shopping-cart.html"
+                   class="flex space-between middle cart-group">
+                    <img src="image/shopping-cart.png" class="cart" />
+                    <span class="text">购物车12件商品</span>
+                </a>
+                <a href="message.html" class="flex column center msg-group">
+                    <div class="badge">23</div>
+                    <img src="image/msg.png" class="msg" />
+                    <div class="text">消息</div>
+                </a>
+                <a href="history.html" class="flex column center clock-group">
+                    <img src="image/clock.png" class="clock" />
+                    <div class="text">足迹</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--menus-->
+    <div class="menus">
+        <div class="container flex start middle">
+            <div class="main-menu">
+                <div class="main-menu-title">全部商品分类</div>
+                <div class="main-dropdown-menu">
+                    <div class="main-dropdown-item flex start middle active" data-id="1">
+                        <img src="image/tab-1-active.png" class="tab-img" /> 品牌蛋糕 <img src="image/arrow-red.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="2">
+                        <img src="image/tab-2.png" class="tab-img" /> 知名品牌 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="3">
+                        <img src="image/tab-3.png" class="tab-img" /> 指定活动 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="4">
+                        <img src="image/tab-4.png" class="tab-img" /> 生鲜助农 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="5">
+                        <img src="image/tab-5.png" class="tab-img" /> 彩妆工具 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="6">
+                        <img src="image/tab-6.png" class="tab-img" /> 皮肤护理 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="7">
+                        <img src="image/tab-7.png" class="tab-img" /> 个人护理 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="8">
+                        <img src="image/tab-8.png" class="tab-img" /> 生活用品 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="9">
+                        <img src="image/tab-9.png" class="tab-img" /> 家居家纺 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="10">
+                        <img src="image/tab-10.png" class="tab-img" /> 厨房用品 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="11">
+                        <img src="image/tab-11.png" class="tab-img" /> 箱包装饰 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="12">
+                        <img src="image/tab-12.png" class="tab-img" /> 数码3C <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="13">
+                        <img src="image/tab-13.png" class="tab-img" /> 家用电器 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="14">
+                        <img src="image/tab-14.png" class="tab-img" /> 粮油副食 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="15">
+                        <img src="image/tab-15.png" class="tab-img" /> 特价零食 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="16">
+                        <img src="image/tab-16.png" class="tab-img" /> 户外休闲 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle" data-id="17">
+                        <img src="image/tab-17.png" class="tab-img" /> 保健养生 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                    <div class="main-dropdown-item flex start middle last-one" data-id="18">
+                        <img src="image/tab-18.png" class="tab-img" /> 汽配装饰 <img src="image/arrow-white.png" class="arrow-img" />
+                    </div>
+                </div>
+                <div class="main-dropdown-menu-sub flex column start">
+                </div>
+            </div>
+            <a href="index.html" class="link first-link">商城首页</a>
+            <a href="miaosha.html" class="link">限时秒杀</a>
+            <a href="shangxin.html" class="link">今日上新</a>
+            <a href="baokuan.html" class="link">爆款推荐</a>
+            <a href="javascript:;" class="link">电影票</a>
+            <a href="gerenzhongxin.html" class="link">我的账户</a>
+            <div class="dropdown-about">
+                <a href="javascript:;" class="link  active">
+                    关于我们
+                </a>
+                <div class="dropdown-menu">
+                    <a href="about-us-1.html" class="dropdown-item">
+                        公司简介
+                    </a>
+                    <a href="about-us-2.html" class="dropdown-item">
+                        业务范围
+                    </a>
+                    <a href="about-us-3.html" class="dropdown-item active">
+                        联系我们
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--main-->
+    <div class="main">
+        <!--banner-section-->
+        <div class="banner-section flex center top">
+            <img src="image/about-us-banner-3.jpg" class="banner" />
+        </div>
+        <!--hello-section-->
+        <div class="hello-section">
+            <div class="container flex start middle">
+                <div class="left flex column center top">
+                    <div class="title">您好HELLO!</div>
+                    <div class="text">
+                        感谢您来到上海钰隽贸易有限公司，若您有什么问题，请您通过以下方式联系我们；若您需要购买商品请用微信扫描右侧二维码进
+                        入商城挑选；感谢您的来访，我们会为您提供最真诚的服务，谢谢。
+                    </div>
+                </div>
+                <img src="image/img/ewm.jpg" class="right" />
+            </div>
+        </div>
+        <!--recruit-section-->
+        <div class="recruit-section">
+            <div class="container flex column center middle">
+                <img src="image/about-us-recruit-title.png" class="title" />
+                <div class="texts">
+                    <div class="title">销售经理</div>
+                    <div class="text">
+                        岗位职责：<br />
+                        1、拓展大客户销售渠道，根据客户需求，制定适合的员工福利计划及销售福利相关产品，完成销售订单；<br />
+                        2、通过公司培训，在部门负责人协助合作下完成部门销售任务；<br />
+                        3、主要服务对象为企业客户，负责接洽、谈判、协商并促成合作；<br />
+                        4、执行公司的销售政策，完成销售目标；<br />
+                        5、跟进订单回收款，并及时做好客户回访工作记录；<br />
+                        6、以专业的沟通、谈判，进行客户拓展等。<br />
+                        任职要求：<br />
+                        1、男女不限，大专及大专以上学历（专业不限），应届毕业生和无行业经验者均可；<br />
+                        2、具备良好谈判能力和语言表达能力，具有较高的职业素养和责任心；<br />
+                        3、社交能力强，熟悉大客户营销程序和技巧，具有丰富的市场资源；<br />
+                        4、员工福利（卡券类、消费卡类、礼品类、健康类）、办公用品、猎头、咨询、团销、地产、保险金融等行业从业经验者优先。<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--contact-us-section-->
+        <div class="contact-us-section">
+            <div class="container flex column center middle">
+                <img src="image/about-us-contact-us-title.png" class="title" />
+                <div class="texts">
+                    <div class="title">上海钰隽贸易有限公司</div>
+                    <div class="text">
+                        地址：上海市静安区永和路118弄东方环球企业中心43号1101室<br />
+                        电话：400-0917-686<br />
+                        手机：180-1769-5089<br />
+                        邮箱：yujunmaoyi@foxmail.com
+                        <br />
+                        邮编：200072<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--map-section-->
+        <div class="map-section">
+            <div class="container" id="map_canvas">
+
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="items">
+            <div class="container flex center middle">
+                <div class="flex column center middle item">
+                    <img src="image/footer-1.png" class="footer-img" />
+                    <div class="title">正品保障</div>
+                    <div class="text">品牌厂商 直接供货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-2.png" class="footer-img" />
+                    <div class="title">发货快</div>
+                    <div class="text">24小时内快速发货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-3.png" class="footer-img" />
+                    <div class="title">用心服务</div>
+                    <div class="text">为您呈现不一样的服务</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-4.png" class="footer-img" />
+                    <div class="title">全场包邮</div>
+                    <div class="text">全国地区免费配送​​</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-5.png" class="footer-img" />
+                    <div class="title">7天退换</div>
+                    <div class="text">7天无理由退换货</div>
+                </div>
+                <div class="flex column center middle item">
+                    <img src="image/footer-6.png" class="footer-img" />
+                    <div class="title">付款方便</div>
+                    <div class="text">多种付款 供您选择</div>
+                </div>
+            </div>
+        </div>
+        <div class="lists">
+            <div class="container flex center top ">
+                <div class="flex column start middle list">
+                    <div class="title">新手入门</div>
+                    <a href="javascript:;" class="text">如何注册</a>
+                    <a href="javascript:;" class="text">购物流程</a>
+                    <a href="javascript:;" class="text">充值积分</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">配送说明</div>
+                    <a href="javascript:;" class="text">配送范围</a>
+                    <a href="javascript:;" class="text">配送时间</a>
+                    <a href="javascript:;" class="text">商品信息</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">售后服务</div>
+                    <a href="javascript:;" class="text">退换货政策</a>
+                    <a href="javascript:;" class="text">申请退换货</a>
+                    <a href="javascript:;" class="text">常见问题</a>
+
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">产品管家</div>
+                    <a href="javascript:;" class="text">新品上新</a>
+                </div>
+                <div class="flex column start middle list">
+                    <div class="title">关于我们</div>
+                    <a href="javascript:;" class="text">公司简介</a>
+                    <a href="javascript:;" class="text">业务范围</a>
+                    <a href="javascript:;" class="text">联系我们</a>
+                </div>
+                <div class="flex column start middle list">
+                    <img src="image/erweima.png" class="erweima" />
+                    <div class="title-erweima">扫描二维码关注我们</div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            地点：上海市静安区永和路118弄东方企业园43号1101室&emsp;&emsp;电话：400-0917-686&emsp;&emsp;邮箱：yujunmaoyi@foxmail.com  <br />
+            Copyright 版权所有 © 上海钰隽贸易有限公司&emsp;&emsp;沪ICP备16037107号-2
+        </div>
+    </div>
+    <img src="image/toTop.jpg" class="to-top" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/menus.js"></script>
+    <script type="text/javascript" src="js/head.js"></script>
+    <script type="text/javascript" src="js/sougou-map.js"></script>
+    <script type="text/javascript" src="js/about-us-3.js"></script>
+</body>
+</html>

@@ -1,0 +1,135 @@
+﻿body.xiugaimima {
+    background-color: #f9f9f9;
+    position: relative;
+    /*main*/
+    .main {
+        .container {
+            color: #101010;
+            -webkit-text-fill-color: #101010;
+            font-size: 14px;
+            padding-top: 25px;
+
+            .section-list {
+                .titles {
+                    margin-bottom: 10px;
+                    font-size: 14px;
+                    height: 42px;
+                    padding-left: 30px;
+                    background-color: #ffffff;
+                    border: 1px solid #eeeeee;
+                }
+
+                .section-main {
+                    margin-bottom: 100px;
+                    width: 905px;
+                    overflow: hidden;
+                    min-height: 574px;
+                    background-color: #ffffff;
+                    padding-bottom: 70px;
+                    padding-top: 20px;
+
+                    .input-group {
+                        margin: 26px 60px 26px 55px;
+
+                        .label {
+                            width: 110px;
+                            font-size: 14px;
+                            text-align: left;
+                        }
+
+                        input {
+                            width: 220px;
+                            height: 38px;
+                            line-height: 38px;
+                            padding: 0 40px;
+                            font-size: 14px;
+                        }
+
+                        .btn-red-border {
+                            height: 33px;
+                            width: 100px;
+                            text-align: center;
+                            line-height: 33px;
+                        }
+
+                        .text {
+                            width: 150px;
+                        }
+
+                        .link-forget-pw {
+                            padding-left: 23px;
+                            color: #cd000c;
+                            -webkit-text-fill-color: #cd000c;
+                        }
+                    }
+
+
+                    .btn-red {
+                        margin-top: 10px;
+                        margin-left: 55px;
+                        width: 135px;
+                        height: 45px;
+                        text-align: center;
+                        line-height: 45px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+
+    .modal-forget-pw {
+        width: 1200px;
+        background-color: transparent;
+        height: unset;
+        background-color: #ffffff;
+        margin-top: 15px;
+
+        .modal-content {
+            padding-bottom: 180px;
+            padding-top: 20px;
+
+            .input-group {
+                margin: 35px 60px 35px 70px;
+
+                .label {
+                    width: 110px;
+                    font-size: 14px;
+                }
+
+                input {
+                    height: 38px;
+                    line-height: 38px;
+                    padding: 0 40px;
+                    font-size: 14px;
+                    width: 340px;
+
+                    &.input-2 {
+                        width: 175px;
+                    }
+                }
+
+                .btn-red-border {
+                    font-size: 12px;
+                    width: 145px;
+                    height: 38px;
+                    line-height: 38px;
+                    text-align: center;
+                    margin-left: 18px;
+                }
+            }
+
+
+            .btn-red {
+                margin-top: 15px;
+                margin-left: 80px;
+                width: 135px;
+                height: 45px;
+                text-align: center;
+                line-height: 45px;
+                cursor: pointer;
+                font-size: 14px;
+            }
+        }
+    }
+}
