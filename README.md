@@ -1,5 +1,4 @@
-# Project Title Here
-Online Shopping Mall
+# Online Shopping Mall
 
 ### Description
 The whole shopping site
